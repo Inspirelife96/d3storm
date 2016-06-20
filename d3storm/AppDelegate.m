@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Chameleon customizeNavigationBarWithPrimaryColor:FlatBlackDark withContentStyle:UIContentStyleContrast];
+    
+    [Chameleon customizeTabBarWithBarTintColor:FlatBlackDark andTintColor:FlatBlackDark];
+    
+    
     return YES;
 }
 

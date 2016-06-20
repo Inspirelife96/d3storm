@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chapterList</key>
+	<array>
+		<string>第一章 崔斯特姆的黑化</string>
+		<string>第二章 黑暗流浪者</string>
+		<string>第三章 毁灭之王</string>
+		<string>第四章 落天之星</string>
+		<string>第五章 黑暗灵魂石</string>
+		<string>第六章 巴斯廷要塞包围战</string>
+		<string>第七章 大魔神</string>
+		<string>第八章 死亡天使</string>
+	</array>
+</dict>
+</plist>

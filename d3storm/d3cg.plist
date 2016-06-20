@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>d3cg</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>暗黑破坏神2</string>
+			<key>cgs</key>
+			<array>
+				<dict>
+					<key>cgname</key>
+					<string>修女的悲怮</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTY4MTg0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>沙漠的旅程</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTcwMTM2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>墨菲斯托丛林</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTcxNTYw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>进入地狱</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTcyOTU2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>恐怖的终结</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTc0NTI4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>找寻巴尔</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTc4Njg0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>毁灭的末日</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTc5NTMy&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>暗黑破坏神3：愤怒</string>
+			<key>cgs</key>
+			<array>
+				<dict>
+					<key>cgname</key>
+					<string>愤怒</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XMzkzNDc4Nzk2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>暗黑破坏神3 职业宣传篇</string>
+			<key>cgs</key>
+			<array>
+				<dict>
+					<key>cgname</key>
+					<string>恶魔猎手</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XMzk1NTY4Nzg4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>武僧</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XMjY1Mjc0MDUy&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>魔法师</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XMzk1NTc1NjI4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>暗黑破坏神3 CG</string>
+			<key>cgs</key>
+			<array>
+				<dict>
+					<key>cgname</key>
+					<string>末日预兆</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NTk4MDgw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>泰瑞尔的牺牲</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NjAzMDY4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>黑暗灵魂石</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NjA4NDk2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>天堂之门</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NjEyNTM2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>新的希望</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NjE1NTcy&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>夺魂之镰</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XOTE3MzgzNDY4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>暗黑破坏神3 过场动画</string>
+			<key>cgs</key>
+			<array>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第一幕过场01(野蛮人)</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NDk5Nzg0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第一幕过场01(圣教军)</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XMTI5NDk4MjM2MA==&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第一幕过场01(武僧)</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NjAzMDY4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第一幕过场01(巫医)</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTA4NDIw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第一幕过场01(魔法师)</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTEyMzE2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第一幕过场02</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTExOTY0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第一幕过场03</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTEzNjUy&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第一幕过场04</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE0MjU2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第二幕过场01</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE1OTAw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第二幕过场02</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE1MTAw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第二幕过场03</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE1NzYw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第二幕过场04</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE1OTQ0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第三幕过场01</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE3ODA0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第三幕过场02</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE2OTMy&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第三幕过场03</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE3MDQ0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第四幕过场01</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE5MjM2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第四幕过场02</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE4NTc2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第四幕过场03</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE5MTA4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第五幕过场01</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XOTE3MzgzNDU2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>暗黑破坏神3第五幕过场02</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XOTE3MzgzNDYw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chapterList</key>
+	<array>
+		<string>第一节 恐惧</string>
+		<string>第二节 姐妹</string>
+		<string>第三节 生命
+</string>
+		<string>第四节 死亡</string>
+		<string>第五节 背叛者</string>
+		<string>第六节 兄弟</string>
+		<string>第七节 责任</string>
+	</array>
+</dict>
+</plist>

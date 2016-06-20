@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>d3worldmap</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>恐惧之地（Dreadlands）</string>
+			<key>description</key>
+			<string>恐惧之地曾经叫做北部草原（Northern Steppes），是以前的野蛮人高地。在暗黑2之后，由于世界之石的破坏，曾经保护这片土地的野蛮人已经离去，因此这片土地逐渐开始贫瘠，恐惧之地的名字便源于此。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>壁垒要塞（Bastion&apos;s Keep）</string>
+			<key>description</key>
+			<string>bul-kathos 之子曾用几个要塞保护北部草原和亚瑞特山免遭入侵，壁垒要塞就是其中之一。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>亚瑞特环形山（Arreat Crater）</string>
+			<key>description</key>
+			<string>亚瑞特环形山就是残余的亚瑞特山。它诞生于大约20年前，当时泰瑞尔为了防止巴尔污染世界之石而破坏了它。这是一片位于恐惧之地以西，壁垒要塞以北的火与岩石的灼热废墟：</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>萨沃尔荒原（Sharval Wilds）</string>
+			<key>description</key>
+			<string>萨沃尔荒原是西部大陆的一个地区，也是一个国家。它位于坎都拉斯以北，亚瑞特环形山以南，南部边缘是威斯特玛湾的海岸，东部紧邻泰摩高地的山脉。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>恩斯汀格（Entsteig）</string>
+			<key>description</key>
+			<string>恩斯汀格是位于萨沃尔荒原的一个国家也是个城市。城市就是这个国家的首都。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>伊戈罗（Ivgorod）</string>
+			<key>description</key>
+			<string>是萨沃尔荒原的一个区域，位于山麓上，是武僧（Monk）的家乡。 </string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>坎都拉斯（Khanduras）</string>
+			<key>description</key>
+			<string>坎都拉斯是西部大陆的一个国家，和威斯特玛长期同盟。坎都拉斯被西方强大的威斯特玛，北方的恩斯汀格和东方的阿拉诺克沙漠所包围。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>威斯特玛（Westmarch）</string>
+			<key>description</key>
+			<string>威斯特玛是西方的国度，恩斯汀格与坎都拉斯的邻国。这个名字也是国家的首都，但在暗黑2的手册中似乎登克里格才是首都。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>威斯特玛湾（Gulf of Westmarch）</string>
+			<key>description</key>
+			<string>威斯特玛湾位于庇护所世界的西部，南部连接威斯特玛，北部连接恩斯汀格。它是重要的航路，对西方王国的兴旺有着巨大的贡献。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>布拉威尔（Bramwell）</string>
+			<key>description</key>
+			<string>布拉威尔是威斯特玛半岛的一个城市。它是 Darrick Lang 的家乡，来源于小说《黑暗之路》。Buyard Cholik 在这里建立了第一个梦之路（Way of Dreams）的教堂。梦之路是一种信仰，信奉先知 Dien-Ap-Sten，他实际上是 Kabraxis 恶魔。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>旧崔斯特姆</string>
+			<key>description</key>
+			<string>崔斯特瑞姆的历史是自1260-1290，Anno Kehjistani之前的几百年开始的。在第一个千年的最后一个世纪，准确地说是912年，迪亚波罗被一帮由杰瑞德·凯恩领导的赫拉迪姆僧侣囚禁在灵魂石内，原罪战争因此结束。这帮僧侣将灵魂石埋在了坎杜拉斯境内泰尔杉德河附近的一处洞穴中。在此地点之上又建起了一座赫拉迪姆修道院，其下蔓延着血脉般的墓穴网络。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>新崔斯特姆</string>
+			<key>description</key>
+			<string>在小镇被摧毁之后，“新崔斯特瑞姆”在古老的修道院周围建立起来。这座新镇已经存在了数年，但其确切的建立时间不得而知。一开始只是一帮唯利是图的商人瞅准了来这里探寻大教堂宝藏的冒险者而在此做买卖。然而渐渐地，一些人在此定居了下来，于是建立起了新崔斯特瑞姆。但大教堂宝藏终被发掘一空，冒险者和旅行者也不再来此，新崔斯特瑞姆也开始颓败了。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>修道院（Monastery）</string>
+			<key>description</key>
+			<string>修道院是盲眼姐妹会（Sisterhood of the Sightless Eye）的大本营，它可以通往东方的阿拉诺克沙漠。盲眼姐妹会就是游侠。在暗黑2中修道院被安达利尔占领，然后被玩家扮演的英雄解救。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>登克里格（Duncraig）</string>
+			<key>description</key>
+			<string>登克里格是威斯特玛王国南方的一个城市，紧邻列王港，离布拉威尔不远。在暗黑小说中有登克里格的信息描述，在暗黑2手册世界地图中只是被标注了个星。新地图中有个独立的城市威斯特玛，所以登克里格仍不确定是不是威斯特玛王国的首都。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>列王港（Kingsport）</string>
+			<key>description</key>
+			<string>列王港是威斯特玛王国南部尽头的一个城市，毗邻登克里格。这个城市和世界其他主要城市一样，有繁忙的贸易，如鲁高因和库拉斯特。马席夫把列王港列为他航海贸易的一站。城市坐落于威斯特玛南部海岸，与亚马逊的斯科沃斯群岛隔海相对。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>阿拉诺克沙漠</string>
+			<key>description</key>
+			<string>阿拉诺克沙漠位于西方大陆的东海岸，泰摩山脉的东边。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>鲁高因（Lut Gholein）</string>
+			<key>description</key>
+			<string>在小镇被摧毁之后，“新崔斯特瑞姆”在古老的修道院周围建立起来。这座新镇已经存在了数年，但其确切的建立时间不得而知。一开始只是一帮唯利是图的商人瞅准了来这里探寻大教堂宝藏的冒险者而在此做买卖。然而渐渐地，一些人在此定居了下来，于是建立起了新崔斯特瑞姆。但大教堂宝藏终被发掘一空，冒险者和旅行者也不再来此，新崔斯特瑞姆也开始颓败了。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>新崔斯特姆</string>
+			<key>description</key>
+			<string>沙漠明珠鲁高因位于阿拉诺克沙漠，是西方王国中最大的贸易中心之一。这里是暗黑2中第二幕的主城。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>斯科沃斯群岛（Skovos Isles）</string>
+			<key>description</key>
+			<string>斯科沃斯群岛是双子之海南方的一片群岛。以亚马逊的故乡而闻名。各岛都有非常丰富的生态系统，大多数为热带植物，也有高耸入云的山峰和火山，这使生存环境十分恶劣，因此造就了可怕的亚马逊战士。在深夜最黑暗的地方狩猎和战斗是每个亚马逊岛屿上姐妹的必需技能。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>沙特拉（Skartara）</string>
+			<key>description</key>
+			<string>沙特拉是亚马逊群岛之一。无额外信息。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>斯科沃斯（Skovos）</string>
+			<key>description</key>
+			<string>斯科沃斯岛位于斯科沃斯群岛最南端，这个岛也是一座城市，是亚马逊战士的家乡。 城市是光明之海的环状珊瑚岛，是与群岛其余岛屿的交易港口。据称斯科沃斯社会由一个人类和天使所发现。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>菲力奥斯（Philios）</string>
+			<key>description</key>
+			<string>菲力奥斯是斯科沃斯群岛之一。Karcheus 山位于这个岛上，是群岛中唯一一个全年可以找到冰雪的岛屿，是 Karcheus the Watcher 的家乡。Arnazeus 山也位于这个岛上。火山上居住着 Hefaetrus，她是与生的亚马逊之神。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>双子之海（Twin Seas）</string>
+			<key>description</key>
+			<string>双子之海西至列王港，东到潮湿大地，向北在两块大陆之间一直延伸到干燥草原的边缘，在南边是亚马逊的群岛。双子之海对于商业和贸易极为重要，威斯特玛、鲁高因、库拉斯特和斯科沃斯群岛是主要的商业中心。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>仙塞（Xiansai）</string>
+			<key>description</key>
+			<string>仙塞是庇护所北半球的岛屿，有着与地球东亚地区相似的文化。这里是法师的家乡，但现在关于这个岛的信息十分有限。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>冰冻之海（Frozen sea）</string>
+			<key>description</key>
+			<string>冰冻之海位于庇护所的北端，和地球的北冰洋类似。仙塞的土地和索格伦北边的海岸线与冰冻之海相接。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>索格伦（Scosglen）</string>
+			<key>description</key>
+			<string>索格伦在庇护所东方大陆的北部地区。这里的气候可能相当寒冷，判据是它较高的纬度（类似野蛮人高地）。索格伦是古老德鲁伊的家园，他们最大的德鲁伊学院塔杜拉就位于这里。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>塔杜拉（Túr Dúlra）</string>
+			<key>description</key>
+			<string>塔杜拉或自然之塔是最大的德鲁伊学院，它位于索格伦地区。在最大的德鲁伊学院塔杜拉里耸立着名为&quot;橡树之荣耀（Glór-an-Fháidha）&quot;的巨树。对于德鲁伊的指导和教诲，这棵树是最受尊敬的源泉。数百年来，在它的枝叶下索格伦的德鲁伊不止磨练出他们强大的自然魔法，也有从他们野蛮人先祖那里保留下来的战争技能。目前他们所做的是因为他们相信在大冲击来临之时他们是世界最后的防线，他们相信那个时刻即将到来。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>干燥高地（Dry steppes）</string>
+			<key>description</key>
+			<string>无额外信息</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>凯吉斯坦（Kehjistan）</string>
+			<key>description</key>
+			<string>凯吉斯坦是东部最大的王国，有多个城市，如卡迪安，维兹郡，乌瑞和库拉斯特。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>卡迪安（Caldeum）</string>
+			<key>description</key>
+			<string>凯吉斯坦是庇护所最大的城市之一，长久以来都是贸易的中心。这个城市是在库拉斯特破坏后才成为凯吉斯坦首府的。卡迪安原由贸易联合会（Trade Consortium Council）支配，但Hakan皇帝统一了这座城市，这还是在他病倒之前。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>吉库尔（Gea kul）</string>
+			<key>description</key>
+			<string>吉库尔是庇护所东方大陆河口处的一个城市或是城镇，临近去往鲁高因的渡口。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>库拉斯特（Kurast）</string>
+			<key>description</key>
+			<string>库拉斯特曾是东方丛林中的巨大杂乱的城市，东方凯吉斯坦王国的第二大都市。在暗黑2事件之前不久，曾作为凯吉斯坦首都的库拉斯特几乎被恶魔大军完全破坏。现在库拉斯特的情况不得而知，但卡迪安再次成为了王国的首都。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>潮湿大地（Marsh land）</string>
+			<key>description</key>
+			<string>无额外信息</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>托拉杰丛林（Torajan jungles）</string>
+			<key>description</key>
+			<string>托拉杰丛林是庇护所东方大陆的茂密雨林的一部分。库拉斯特西南，它一直延伸至大陆南边的海岸和潮湿大地，覆盖了庇护所的大片面积。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>维兹郡（Viz-jun）</string>
+			<key>description</key>
+			<string>维兹君曾是凯吉斯坦的巨大城市，但现在不是了。原因未知。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>沼泽大地（Swamp land）</string>
+			<key>description</key>
+			<string>沼泽大地位于庇护所世界的东南区域，是一片巨大的满是茂密丛林的地区。在北部，巨大的陡峭山峰将沼泽大地与凯吉斯坦分开。这个区域在 Nymyr 山脉的庇护下，著名城市乌瑞就坐落于这里。沼泽大地是死灵法师的家乡。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>乌瑞（Ureh）</string>
+			<key>description</key>
+			<string>乌瑞是个古老的神秘城市建于 Nymyr 山的脚下，在庇护所世界东方丛林的中部。它连接了庇护所，高阶天堂和燃烧地狱。</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>光明之海（Sea of light）</string>
+			<key>description</key>
+			<string>光明之海是庇护所东边的一片大海。没有它起源和得名原因的信息。</string>
+		</dict>
+	</array>
+</dict>
+</plist>

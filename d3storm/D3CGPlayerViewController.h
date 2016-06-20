@@ -1,0 +1,13 @@
+//
+//  D3CGPlayerViewController.h
+//  d3storm
+//
+//  Created by Chen XueFeng on 16/6/14.
+//  Copyright © 2016年 Chen XueFeng. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface D3CGPlayerViewController : UIViewController
+
+@end
