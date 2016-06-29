@@ -17,6 +17,7 @@
 
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "UIViewController+Alert.h"
+#import "CoinManager.h"
 
 @implementation UIViewController (Share)
 
@@ -27,7 +28,7 @@
     [shareParams SSDKSetupShareParamsByText:message
                                      images:imageArray
                                         url:[NSURL URLWithString:kAppURL]
-                                      title:@"iOS面试题大全"
+                                      title:@"小说，CG合集 For 暗黑破坏神"
                                        type:SSDKContentTypeAuto];
     
     [shareParams SSDKSetupWeChatParamsByText:@"" title:message url:[NSURL URLWithString:kAppURL] thumbImage:[UIImage imageNamed:@"Icon-share.png"] image:[UIImage imageNamed:@"Icon-share.png"] musicFileURL:nil extInfo:nil fileData:nil emoticonData:nil type:SSDKContentTypeAuto forPlatformSubType:SSDKPlatformSubTypeWechatTimeline];
@@ -46,6 +47,15 @@
                        }
                        case SSDKResponseStateSuccess:
                        {
+                           if (!IsVip && !IsSharedToday) {
+                               [CoinManager changeCoin:2];
+                               [self presentAlertTitle:@"分享成功（＋2🔑）" message:@""];
+                               [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kUserDefaultIsSharedToday];
+                           } else {
+                               [self presentAlertTitle:@"分享成功" message:@""];
+                           }
+                           
+                           
                            [self presentAlertTitle:@"分享成功" message:@""];
                            break;
                        }

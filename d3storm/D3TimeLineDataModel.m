@@ -10,17 +10,11 @@
 
 @implementation D3TimeLineDataModel
 
-- (instancetype)initWithString:(NSString *)timeLineString {
+- (instancetype)initWithDictionary:(NSDictionary *)timeLineDict {
     if (self = [super init]) {
-        NSRange range = [timeLineString rangeOfString:@"]"];
-        if (range.location == NSNotFound) {
-            _timeString = @"";
-            _contentString = timeLineString;
-        } else {
-            NSRange timeRange = NSMakeRange(1, range.location - 1);
-            _timeString = [timeLineString substringWithRange:timeRange];
-            _contentString = [timeLineString substringFromIndex:range.location + 1];
-        }
+        _timeString    = [timeLineDict objectForKey:@"time"];
+        _contentString = [timeLineDict objectForKey:@"content"];
+        _imageString   = [timeLineDict objectForKey:@"image"];
 
         return self;
     }
@@ -28,8 +22,8 @@
     return nil;
 }
 
-+ (instancetype)initWithString:(NSString *)timeLineString {
-    return [[self alloc] initWithString:timeLineString];
++ (instancetype)initWithDictionary:(NSDictionary *)timeLineDict {
+    return [[self alloc] initWithDictionary:timeLineDict];
 }
 
 @end

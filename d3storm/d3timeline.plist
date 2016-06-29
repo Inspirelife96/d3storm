@@ -9,9 +9,30 @@
 			<string>【创世黎明】</string>
 			<key>content</key>
 			<array>
-				<string>起初万物皆空，唯有一颗珍珠，其中沉睡着一个强大而深不可测的灵魂——太初者安努(The One, Anu)。</string>
-				<string>某个时刻安努醒来，它为了使自己日臻完美，便把体内的邪恶逐出体外，这些邪恶形成了万恶之源塔萨梅特(The Prime Evil, Tathamet)。</string>
-				<string>作为两个截然相反、完全独立的存在，安努和塔萨梅特在珍珠里展开了无穷无尽的争斗，二者在精疲力竭之时同时作出了最后一击后同归于尽，随后的剧变创生了整个宇宙的基石。混沌界即是创世事件的遗骸。</string>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>起初万物皆空，唯有一颗珍珠，其中沉睡着一个强大而深不可测的灵魂——太初者安努(The One, Anu)。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>某个时刻安努醒来，它为了使自己日臻完美，便把体内的邪恶逐出体外，这些邪恶形成了万恶之源塔萨梅特(The Prime Evil, Tathamet)。</string>
+					<key>image</key>
+					<string>1-1.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>作为两个截然相反、完全独立的存在，安努和塔萨梅特在珍珠里展开了无穷无尽的争斗，二者在精疲力竭之时同时作出了最后一击后同归于尽，随后的剧变创生了整个宇宙的基石。混沌界即是创世事件的遗骸。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -19,10 +40,142 @@
 			<string>【永恒之战】</string>
 			<key>content</key>
 			<array>
-				<string>安努闪耀的脊柱化为了水晶穹顶，周围形成了高阶天堂。塔萨梅特的尸体形成了燃烧地狱的地基。天使和恶魔从相应的领域中诞生了。安努的眼睛形成了世界之石，一件具有创世神力的强大神器。</string>
-				<string>天使和恶魔为了争夺世界之石展开了征战，神器多次易主。他们修建了混沌要塞来保护世界之石，但要塞本身也时常易主。</string>
-				<string>数个纪元的战争之后，天使伊纳瑞斯(Inarius)厌倦了永恒之战。他集结了与他有相同想法的天使和恶魔，其中最有名的是墨菲斯托的女儿莉莉丝(Lilith)。这些叛逃者盗取了世界之石，并且用它创造了一个远离永恒之战侵扰的世界——庇护之地。</string>
-				<string>世界之石的失窃使得永恒之战陷入僵局，天堂和地狱都因为失去目标而不知所措。</string>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>安努闪耀的脊柱化为了水晶穹顶，周围形成了高阶天堂。塔萨梅特的尸体形成了燃烧地狱的地基。天使和恶魔从相应的领域中诞生了。安努的眼睛形成了世界之石，一件具有创世神力的强大神器。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>安格里斯委员会大本营——银色尖塔</string>
+					<key>image</key>
+					<string>2-1.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>公正之大天使——泰瑞尔</string>
+					<key>image</key>
+					<string>2-2.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>希望之大天使——奥利尔</string>
+					<key>image</key>
+					<string>2-3.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>智慧之大天使——玛瑟伊尔</string>
+					<key>image</key>
+					<string>2-4.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>英勇之大天使——伊姆帕里斯</string>
+					<key>image</key>
+					<string>2-5.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>命运之大天使——伊瑟瑞尔</string>
+					<key>image</key>
+					<string>2-6.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>憎恨之王——墨菲斯托</string>
+					<key>image</key>
+					<string>2-7.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>毁灭之王——巴尔</string>
+					<key>image</key>
+					<string>2-8.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>恐惧之王——迪亚布罗</string>
+					<key>image</key>
+					<string>2-9.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>痛苦女王——安达利尔</string>
+					<key>image</key>
+					<string>2-10.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>痛苦之王——督瑞尔</string>
+					<key>image</key>
+					<string>2-11.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>罪恶之王——阿兹莫丹</string>
+					<key>image</key>
+					<string>2-12.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>谎言之王——彼列</string>
+					<key>image</key>
+					<string>2-13.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>天使和恶魔为了争夺世界之石展开了征战，神器多次易主。他们修建了混沌要塞来保护世界之石，但要塞本身也时常易主。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>数个纪元的战争之后，天使伊纳瑞斯(Inarius)厌倦了永恒之战。他集结了与他有相同想法的天使和恶魔，其中最有名的是墨菲斯托的女儿莉莉丝(Lilith)。这些叛逃者盗取了世界之石，并且用它创造了一个远离永恒之战侵扰的世界——庇护之地。</string>
+					<key>image</key>
+					<string>2-14.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>世界之石的失窃使得永恒之战陷入僵局，天堂和地狱都因为失去目标而不知所措。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -30,10 +183,38 @@
 			<string>【庇护之地的创生】</string>
 			<key>content</key>
 			<array>
-				<string>庇护之地诞生后，伊纳瑞斯和莉莉丝结合并生下了被称为奈非天的后代。其他叛逃的天使与恶魔也纷纷效法。这些首生子女被后人称为“古代人”(the Ancients)，他们是所有人类的祖先。</string>
-				<string>叛逃的天使与恶魔惧怕奈非天的力量，想要灭绝他们。灭绝她的孩子的企图使得莉莉丝陷入了狂怒，她杀死了庇护之地几乎所有的叛逃天使与恶魔，只留下她曾经的爱人伊纳瑞斯。</string>
-				<string>伊纳瑞斯对莉莉丝的举动大为惊骇，但又无法下手杀死她，便把她放逐到了无尽虚空中(the Void)。</string>
-				<string>伊纳瑞斯调整了世界之石，使得它一代代地削弱奈非天的力量直到他们变得与如今的凡人无异。人类就这样诞生了，并且对他们曾经与生俱来的神力一无所知。</string>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>庇护之地诞生后，伊纳瑞斯和莉莉丝结合并生下了被称为奈非天的后代。其他叛逃的天使与恶魔也纷纷效法。这些首生子女被后人称为“古代人”(the Ancients)，他们是所有人类的祖先。</string>
+					<key>image</key>
+					<string>3-1.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>叛逃的天使与恶魔惧怕奈非天的力量，想要灭绝他们。灭绝她的孩子的企图使得莉莉丝陷入了狂怒，她杀死了庇护之地几乎所有的叛逃天使与恶魔，只留下她曾经的爱人伊纳瑞斯。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>伊纳瑞斯对莉莉丝的举动大为惊骇，但又无法下手杀死她，便把她放逐到了无尽虚空中(the Void)。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>伊纳瑞斯调整了世界之石，使得它一代代地削弱奈非天的力量直到他们变得与如今的凡人无异。人类就这样诞生了，并且对他们曾经与生俱来的神力一无所知。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -41,13 +222,62 @@
 			<string>【文明的曙光】</string>
 			<key>content</key>
 			<array>
-				<string>千年之后，人类在庇护之地各处繁衍生息开来，孕育出了多种多样的文明。</string>
-				<string>[约-2300]遗物发掘表明，在这个时期，文字、艺术和科学已经成为了人类文明不可或缺的重要组成部分。现代学者一致认为这个时期标志着人类第一个文明——凯吉(Kehjan)的诞生。</string>
-				<string>[约-2200]凯吉人开始正式、系统地学习魔法。这使得法师部族形成和壮大。</string>
-				<string>[约-2100]法师部族的力量日益强大，他们组建了奥拉奎什(Al&apos;Raquish)。该组织与君王和贸易行会(trade guilds)共同统治凯吉。</string>
-				<string>[-1992]杰瑞•哈拉什(Jere Harash)首先在庇护之地召唤恶魔。他的维兹耶雷法师(Vizjerei)同僚完善了召唤法术，创立了恶魔学识学派并且将奴役恶魔作为他们权力的基石。这一举动导致地狱魔神获悉了庇护之地的存在和人类的潜能。</string>
-				<string>[-1880]三一神教(Temple of the Triune)建立。该教派作为传播魔神影响的工具稳步壮大。</string>
-				<string>[-1820]伊纳瑞斯建立光明大教堂(Cathedral of Light)来针对三一神教逐渐扩大的影响。</string>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>千年之后，人类在庇护之地各处繁衍生息开来，孕育出了多种多样的文明。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[约-2300]</string>
+					<key>content</key>
+					<string>遗物发掘表明，在这个时期，文字、艺术和科学已经成为了人类文明不可或缺的重要组成部分。现代学者一致认为这个时期标志着人类第一个文明——凯吉(Kehjan)的诞生。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[约-2200]</string>
+					<key>content</key>
+					<string>凯吉人开始正式、系统地学习魔法。这使得法师部族形成和壮大。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[约-2100]</string>
+					<key>content</key>
+					<string>法师部族的力量日益强大，他们组建了奥拉奎什(Al&apos;Raquish)。该组织与君王和贸易行会(trade guilds)共同统治凯吉。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[-1992]</string>
+					<key>content</key>
+					<string>杰瑞•哈拉什(Jere Harash)首先在庇护之地召唤恶魔。他的维兹耶雷法师(Vizjerei)同僚完善了召唤法术，创立了恶魔学识学派并且将奴役恶魔作为他们权力的基石。这一举动导致地狱魔神获悉了庇护之地的存在和人类的潜能。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[-1880]</string>
+					<key>content</key>
+					<string>三一神教(Temple of the Triune)建立。该教派作为传播魔神影响的工具稳步壮大。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[-1820]</string>
+					<key>content</key>
+					<string>伊纳瑞斯建立光明大教堂(Cathedral of Light)来针对三一神教逐渐扩大的影响。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -55,13 +285,62 @@
 			<string>【原罪之战】</string>
 			<key>content</key>
 			<array>
-				<string>[-1809]一场信仰的论辩在光明大教堂与三一神教之间展开。这成了原罪之战的导火索。</string>
-				<string>一个名为乌迪贤(Uldyssian)的普通农夫被卷入了三一教和光明大教堂的冲突之中。从虚空归来的女魔莉莉丝唤醒了乌迪贤的的奈非天之力，并且打算把他用作对抗伊纳瑞斯的傀儡。</string>
-				<string>乌迪贤与他的追随者们建立了艾迪伦(Edyrem)。这个组织致力于揭露三一神教和光明大教堂的真面目并终结它们对人们的思想钳制。在此过程中，高阶天堂也发觉了庇护之地和人类的存在。</string>
-				<string>三一神教和光明大教堂垮台，莉莉丝被放逐回了虚空之中。乌迪贤重新调整了世界之石，移除了伊纳瑞斯为了限制人类的奈非天之力而作出的修改。然而此时，高阶天堂入侵了庇护之地，企图消灭“畸形种”人类。燃烧地狱也开始公然入侵，于是天堂、地狱和艾迪伦展开了三方战争。</string>
-				<string>获得全部奈非天力量的乌迪贤已经比天使和恶魔更为强大，但他意识到自己的人性正在丧失，毅然决定牺牲自我，将天使与恶魔全部逐出庇护之地。这一举动所释放的能量剥夺了艾迪伦的力量，将世界之石重置回了被伊纳瑞斯修改过的状态。</string>
-				<string>天使议会投票决定庇护之地的存亡问题。泰瑞尔被乌迪贤的牺牲所感动，投出了反对毁灭庇护之地和人类的关键一票。随后天堂与地狱订立契约，规定双方都不得干涉庇护之地的事务，人类有权在秩序与混乱的道路间自由选择。为使契约生效，伊纳瑞斯被作为俘虏交予墨菲斯托，永世在地狱承受折磨。</string>
-				<string>原罪之战就此结束。人类的记忆被全数抹除，只有个别被选中的人得以铭记这场战争。</string>
+				<dict>
+					<key>time</key>
+					<string>[-1809]</string>
+					<key>content</key>
+					<string>一场信仰的论辩在光明大教堂与三一神教之间展开。这成了原罪之战的导火索。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>一个名为乌迪贤(Uldyssian)的普通农夫被卷入了三一教和光明大教堂的冲突之中。从虚空归来的女魔莉莉丝唤醒了乌迪贤的的奈非天之力，并且打算把他用作对抗伊纳瑞斯的傀儡。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>乌迪贤与他的追随者们建立了艾迪伦(Edyrem)。这个组织致力于揭露三一神教和光明大教堂的真面目并终结它们对人们的思想钳制。在此过程中，高阶天堂也发觉了庇护之地和人类的存在。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>三一神教和光明大教堂垮台，莉莉丝被放逐回了虚空之中。乌迪贤重新调整了世界之石，移除了伊纳瑞斯为了限制人类的奈非天之力而作出的修改。然而此时，高阶天堂入侵了庇护之地，企图消灭“畸形种”人类。燃烧地狱也开始公然入侵，于是天堂、地狱和艾迪伦展开了三方战争。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>获得全部奈非天力量的乌迪贤已经比天使和恶魔更为强大，但他意识到自己的人性正在丧失，毅然决定牺牲自我，将天使与恶魔全部逐出庇护之地。这一举动所释放的能量剥夺了艾迪伦的力量，将世界之石重置回了被伊纳瑞斯修改过的状态。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>天使议会投票决定庇护之地的存亡问题。泰瑞尔被乌迪贤的牺牲所感动，投出了反对毁灭庇护之地和人类的关键一票。随后天堂与地狱订立契约，规定双方都不得干涉庇护之地的事务，人类有权在秩序与混乱的道路间自由选择。为使契约生效，伊纳瑞斯被作为俘虏交予墨菲斯托，永世在地狱承受折磨。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>原罪之战就此结束。人类的记忆被全数抹除，只有个别被选中的人得以铭记这场战争。</string>
+					<key>image</key>
+					<string>5-1.png</string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -69,12 +348,54 @@
 			<string>【魔法纪元】</string>
 			<key>content</key>
 			<array>
-				<string>[-1799]绝大多数凯吉人都认为原罪之战不过是一场信仰碰撞。他们渐渐疏远了宗教，并且将自己的土地重新命名为凯吉斯坦(Kehjisitan)以淡化原罪之战的影响。</string>
-				<string>越来越多的人加入了法师部族。魔法纪元就此开始。</string>
-				<string>保有原罪之战记忆的法师明令禁止了恶魔召唤，声称人类必须避免受到天使与恶魔的影响。维兹耶雷(Vizjerei)、恩奈德(Ennead)和安缪特(Ammuit)部族成为占据支配地位的法师部族，镇压着当时的宗教。</string>
-				<string>[约-748]乌瑞(Ureh)从庇护之地上消失了。</string>
-				<string>[-265]维兹耶雷部族被揭发仍在进行恶魔召唤。这一曝光导致了一系列的暗杀和政治阴谋，意在将维兹耶雷部族赶下权力的高台。</string>
-				<string>[约-215]先知之手(the Hand of the Prophet)的领袖预见到一场大战将在1500年后发生。他使他手下的姐妹会成员进入了魔法休眠，以在将来苏醒时援助未来的英雄们。</string>
+				<dict>
+					<key>time</key>
+					<string>[-1799]</string>
+					<key>content</key>
+					<string>绝大多数凯吉人都认为原罪之战不过是一场信仰碰撞。他们渐渐疏远了宗教，并且将自己的土地重新命名为凯吉斯坦(Kehjisitan)以淡化原罪之战的影响。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>越来越多的人加入了法师部族。魔法纪元就此开始。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>保有原罪之战记忆的法师明令禁止了恶魔召唤，声称人类必须避免受到天使与恶魔的影响。维兹耶雷(Vizjerei)、恩奈德(Ennead)和安缪特(Ammuit)部族成为占据支配地位的法师部族，镇压着当时的宗教。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[约-748]</string>
+					<key>content</key>
+					<string>乌瑞(Ureh)从庇护之地上消失了。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[-265]</string>
+					<key>content</key>
+					<string>维兹耶雷部族被揭发仍在进行恶魔召唤。这一曝光导致了一系列的暗杀和政治阴谋，意在将维兹耶雷部族赶下权力的高台。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[约-215]</string>
+					<key>content</key>
+					<string>先知之手(the Hand of the Prophet)的领袖预见到一场大战将在1500年后发生。他使他手下的姐妹会成员进入了魔法休眠，以在将来苏醒时援助未来的英雄们。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -82,8 +403,22 @@
 			<string>【法师部族战争】</string>
 			<key>content</key>
 			<array>
-				<string>[-210]法师部族间的紧张局势在凯吉斯坦的各大城市升级为流血冲突。全面战争爆发。</string>
-				<string>[-203]法师部族战争的最终决战发生在两兄弟——巴图克(Bartuc)与赫拉森(Horazon)，以及他们各自领导的势力之间。巴图克战败被杀，凯吉斯坦首都维兹郡(Viz-jun)被毁。法师部族从此一蹶不振。</string>
+				<dict>
+					<key>time</key>
+					<string>[-210]</string>
+					<key>content</key>
+					<string>法师部族间的紧张局势在凯吉斯坦的各大城市升级为流血冲突。全面战争爆发。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[-203]</string>
+					<key>content</key>
+					<string>法师部族战争的最终决战发生在两兄弟——巴图克(Bartuc)与赫拉森(Horazon)，以及他们各自领导的势力之间。巴图克战败被杀，凯吉斯坦首都维兹郡(Viz-jun)被毁。法师部族从此一蹶不振。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -91,14 +426,70 @@
 			<string>【信仰纪元】</string>
 			<key>content</key>
 			<array>
-				<string>法师部族战争的后果就是人们都起来反对法师。部分法师部族幸存了下来(其中包括维兹耶雷部族)，但它们的实力大大削减了。不计其数的典籍和记录被销毁，维兹贾塔(Viz-jaq&apos;taar)在此期间成立以应对叛逆法师。禁用魔法的律法被通过了。由此，魔法纪元被信仰纪元取代，各类新兴宗教雨后春笋般纷纷涌现。</string>
-				<string>[0 (凯吉斯坦历元年)]阿卡拉特在仙塞冥想期间看到了一个视像，并将它的来源归结于一位名为亚瑞斯(Yaerius)的天使。据说阿卡拉特获得了洞察宇宙、现实以及人心的神力。他开始四处游历，沿途宣扬光明的美德，并赢得了大批追随者。</string>
-				<string>[未知]阿卡拉特消失在凯吉斯坦的丛林深处。虽然阿卡拉特的教诲影响深远，但接下来的一千年中并未得到广泛传播。</string>
-				<string>[约264]阿拉诺克沙漠(Aranoch)被战争蹂躏。</string>
-				<string>[约285]至此，奈非天据信完全灭绝，尽管这不是很准确。</string>
-				<string>[302]恶魔亚述尔(Assur)被席加德(Siggard)杀死(官方小说情节，译者注)。此后的两百年，恩斯汀格(Entsteig)都没有遭受恶魔的侵扰。</string>
-				<string>[约504]大法师伊萨德(grand mage Ethad)制造了法瞳(the Oculus)。</string>
-				<string>[约885]烈风之地(Stinging Winds)发现了矿藏。阿尔卡纳斯(Alcarnus)作为矿业中心被迅速建立起来。</string>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>法师部族战争的后果就是人们都起来反对法师。部分法师部族幸存了下来(其中包括维兹耶雷部族)，但它们的实力大大削减了。不计其数的典籍和记录被销毁，维兹贾塔(Viz-jaq&apos;taar)在此期间成立以应对叛逆法师。禁用魔法的律法被通过了。由此，魔法纪元被信仰纪元取代，各类新兴宗教雨后春笋般纷纷涌现。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[0 (凯吉斯坦历元年)]</string>
+					<key>content</key>
+					<string>阿卡拉特在仙塞冥想期间看到了一个视像，并将它的来源归结于一位名为亚瑞斯(Yaerius)的天使。据说阿卡拉特获得了洞察宇宙、现实以及人心的神力。他开始四处游历，沿途宣扬光明的美德，并赢得了大批追随者。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[未知]</string>
+					<key>content</key>
+					<string>阿卡拉特消失在凯吉斯坦的丛林深处。虽然阿卡拉特的教诲影响深远，但接下来的一千年中并未得到广泛传播。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[约264]</string>
+					<key>content</key>
+					<string>阿拉诺克沙漠(Aranoch)被战争蹂躏。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[约285]</string>
+					<key>content</key>
+					<string>至此，奈非天据信完全灭绝，尽管这不是很准确。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[302]</string>
+					<key>content</key>
+					<string>恶魔亚述尔(Assur)被席加德(Siggard)杀死(官方小说情节，译者注)。此后的两百年，恩斯汀格(Entsteig)都没有遭受恶魔的侵扰。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[约504]</string>
+					<key>content</key>
+					<string>大法师伊萨德(grand mage Ethad)制造了法瞳(the Oculus)。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[约885]</string>
+					<key>content</key>
+					<string>烈风之地(Stinging Winds)发现了矿藏。阿尔卡纳斯(Alcarnus)作为矿业中心被迅速建立起来。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -106,14 +497,70 @@
 			<string>【黑暗流放】</string>
 			<key>content</key>
 			<array>
-				<string>[964]在次级魔王的带领下，地狱的大半恶魔掀起了一场针对三魔神的叛乱并且导致了黑暗流放。地狱三魔神被迫流亡庇护之地。</string>
-				<string>[999]按基德(Gheed)的话说，这是值得庆祝的一年。</string>
-				<string>[约1004]大天使泰瑞尔集结凡人英雄建立了赫拉迪姆兄弟会(the Horadrim)。他将灵魂之石送给他们并且命他们追捕和封印魔神。</string>
-				<string>[1009]墨菲斯托在凯吉斯坦的丛林附近被捕获。它被关押在一座萨卡兰姆神庙之下。这片地区最终成为了库拉斯特。</string>
-				<string>[1010]巴尔在鲁•高因附近的沙漠中被捕获。由于灵魂石受损，赫拉迪姆的领袖塔•拉夏牺牲了自己来囚禁巴尔。</string>
-				<string>[1017]萨卡兰姆开始兴建崔凡克(Travincal)。这在当地人之中激发了对于萨卡兰姆教义的兴趣，短短数月之内就有大量凯吉斯坦低层民众涌向神庙对他们施以援手。</string>
-				<string>[1018]根据传说，崔凡克在这一年落成。</string>
-				<string>[1019]迪亚布罗终于被一群由杰瑞德•凯恩(Jered Cain)带领的赫拉迪姆僧侣抓获。这些僧侣们将迪亚布罗的灵魂石埋藏在堪杜拉斯(Khanduras)的塔珊德河畔(River Talsande)，在该处建立起一座赫拉迪克修道院并且在其下修建了错综复杂的地下墓穴。</string>
+				<dict>
+					<key>time</key>
+					<string>[964]</string>
+					<key>content</key>
+					<string>在次级魔王的带领下，地狱的大半恶魔掀起了一场针对三魔神的叛乱并且导致了黑暗流放。地狱三魔神被迫流亡庇护之地。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[999]</string>
+					<key>content</key>
+					<string>按基德(Gheed)的话说，这是值得庆祝的一年。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[约1004]</string>
+					<key>content</key>
+					<string>大天使泰瑞尔集结凡人英雄建立了赫拉迪姆兄弟会(the Horadrim)。他将灵魂之石送给他们并且命他们追捕和封印魔神。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1009]</string>
+					<key>content</key>
+					<string>墨菲斯托在凯吉斯坦的丛林附近被捕获。它被关押在一座萨卡兰姆神庙之下。这片地区最终成为了库拉斯特。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1010]</string>
+					<key>content</key>
+					<string>巴尔在鲁•高因附近的沙漠中被捕获。由于灵魂石受损，赫拉迪姆的领袖塔•拉夏牺牲了自己来囚禁巴尔。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1017]</string>
+					<key>content</key>
+					<string>萨卡兰姆开始兴建崔凡克(Travincal)。这在当地人之中激发了对于萨卡兰姆教义的兴趣，短短数月之内就有大量凯吉斯坦低层民众涌向神庙对他们施以援手。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1018]</string>
+					<key>content</key>
+					<string>根据传说，崔凡克在这一年落成。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1019]</string>
+					<key>content</key>
+					<string>迪亚布罗终于被一群由杰瑞德•凯恩(Jered Cain)带领的赫拉迪姆僧侣抓获。这些僧侣们将迪亚布罗的灵魂石埋藏在堪杜拉斯(Khanduras)的塔珊德河畔(River Talsande)，在该处建立起一座赫拉迪克修道院并且在其下修建了错综复杂的地下墓穴。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -121,18 +568,102 @@
 			<string>【萨卡兰姆的崛起】</string>
 			<key>content</key>
 			<array>
-				<string>[1025]崔斯特姆在赫拉迪克修道院周围建立起来。其后的年月中它吸引了周边地区的许多农夫和住民。</string>
-				<string>[1042]凯吉斯坦的塔萨拉大帝(Emperor Tassara)皈依了影响力渐高的萨卡兰姆教。此举安抚了蠢蠢欲动的子民，提升了他的亲和力进而稳定了该地区。</string>
-				<string>凯吉斯坦帝国迁都库拉斯特。塔萨拉将萨卡兰姆立为国教并推选出了首任魁-黑刚(Que-Hegan)(即萨卡兰姆最高评议会的领袖，地位类似于天主教教皇，译者注)。自此之后的记录都将萨卡兰姆描述为一个有组织的向善宗教。</string>
-				<string>[1045]萨卡兰姆被立为正统的三年后，塔萨拉依然在拉基斯(Rakkis)面前相形见绌。此人是塔萨拉的童年好友，同时也是一名狂热的萨卡兰姆信徒。拉基斯在打败了一群密谋推翻教廷的反叛贵族后被尊为传奇。他利用他的影响力将政府官员撤换为萨卡兰姆主教，此举影响了当地的权力平衡。</string>
-				<string>塔萨拉对拉基斯日益增长的影响力感到警惕，他以传播萨卡兰姆信仰的名义命令拉基斯将军进行西征。拉基斯和他的亲信离开后，塔萨拉得以坐实了他对凯吉斯坦的掌控。</string>
-				<string>在拉基斯出发前后，一位名为阿克汉(Akkhan)的牧师建立了圣教军。他将他们送往东边以寻找净化萨卡兰姆信仰的方法，因为他坚信教廷已经偏离了阿卡拉特的教诲。</string>
-				<string>[1060]在与西方人和野蛮人连年征战之后，拉基斯终于建立了威斯特玛并且加冕称王[2]。他是威斯特玛的第一任国王。在此之前，他发现了奈非天古城科乌斯废墟(Ruins of Corvus)，并由此了解到了人类的起源。</string>
-				<string>[1070]拉基斯称王十年后仍然未能从科乌斯废墟中找到奈非天之力。他听闻了世界之石的存在，便率军入侵北方高原。</string>
-				<string>[1080]崔斯特姆的赫拉迪克修道院被荒废。</string>
-				<string>[1085]黑尔(Hael)将科乌斯写入其著述。他将它归结为一个象征性的概念，而非一处具体的地点。</string>
-				<string>[1100]赫拉迪姆再无使命，逐渐淡出了历史，成为传说。</string>
-				<string>[1141]萨克扎斯(Xazaz)(一个恶魔，官方小说人物，译者注)开始寻找巴图克。</string>
+				<dict>
+					<key>time</key>
+					<string>[1025]</string>
+					<key>content</key>
+					<string>崔斯特姆在赫拉迪克修道院周围建立起来。其后的年月中它吸引了周边地区的许多农夫和住民。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1042]</string>
+					<key>content</key>
+					<string>凯吉斯坦的塔萨拉大帝(Emperor Tassara)皈依了影响力渐高的萨卡兰姆教。此举安抚了蠢蠢欲动的子民，提升了他的亲和力进而稳定了该地区。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>凯吉斯坦帝国迁都库拉斯特。塔萨拉将萨卡兰姆立为国教并推选出了首任魁-黑刚(Que-Hegan)(即萨卡兰姆最高评议会的领袖，地位类似于天主教教皇，译者注)。自此之后的记录都将萨卡兰姆描述为一个有组织的向善宗教。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1045]</string>
+					<key>content</key>
+					<string>萨卡兰姆被立为正统的三年后，塔萨拉依然在拉基斯(Rakkis)面前相形见绌。此人是塔萨拉的童年好友，同时也是一名狂热的萨卡兰姆信徒。拉基斯在打败了一群密谋推翻教廷的反叛贵族后被尊为传奇。他利用他的影响力将政府官员撤换为萨卡兰姆主教，此举影响了当地的权力平衡。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>塔萨拉对拉基斯日益增长的影响力感到警惕，他以传播萨卡兰姆信仰的名义命令拉基斯将军进行西征。拉基斯和他的亲信离开后，塔萨拉得以坐实了他对凯吉斯坦的掌控。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>在拉基斯出发前后，一位名为阿克汉(Akkhan)的牧师建立了圣教军。他将他们送往东边以寻找净化萨卡兰姆信仰的方法，因为他坚信教廷已经偏离了阿卡拉特的教诲。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1060]</string>
+					<key>content</key>
+					<string>在与西方人和野蛮人连年征战之后，拉基斯终于建立了威斯特玛并且加冕称王[2]。他是威斯特玛的第一任国王。在此之前，他发现了奈非天古城科乌斯废墟(Ruins of Corvus)，并由此了解到了人类的起源。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1070]</string>
+					<key>content</key>
+					<string>拉基斯称王十年后仍然未能从科乌斯废墟中找到奈非天之力。他听闻了世界之石的存在，便率军入侵北方高原。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1080]</string>
+					<key>content</key>
+					<string>崔斯特姆的赫拉迪克修道院被荒废。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1085]</string>
+					<key>content</key>
+					<string>黑尔(Hael)将科乌斯写入其著述。他将它归结为一个象征性的概念，而非一处具体的地点。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1100]</string>
+					<key>content</key>
+					<string>赫拉迪姆再无使命，逐渐淡出了历史，成为传说。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1141]</string>
+					<key>content</key>
+					<string>萨克扎斯(Xazaz)(一个恶魔，官方小说人物，译者注)开始寻找巴图克。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -140,17 +671,94 @@
 			<string>【萨卡兰姆改革】</string>
 			<key>content</key>
 			<array>
-				<string>[1150]魁-黑刚泽布隆一世(Zebulon I)发起了萨卡兰姆宗教改革，呼吁信仰回归其禁欲和谦逊的本源。这项改革被民众广泛接受，并且引起了自主崇拜、世俗主义和神秘主义的潮流。萨卡兰姆最高评议会的大主教们视这些事件为教会权力的削弱，但却对泽布隆一世无能为力。</string>
-				<string>在这一时期(12世纪中叶)，教廷派出传教士向西方传播萨卡兰姆教义。严酷的传道之旅催生了真言护卫者(Protectors of the Word)，该组织的目的是保护未来的传教士。</string>
-				<string>[1172]红圈镇(the Red Circle)在当时还是一座绞架。</string>
-				<string>[1190s]皮平(Pepin)(D1中崔斯特姆的医师)在这十年中出生。</string>
-				<string>[1200]威斯特玛瘟疫肆虐。加斯迪安二世(Justinian II)下令焚烧死者。</string>
-				<string>[1202]迪卡德•凯恩(Deckard Cain)出生。</string>
-				<string>[1210s]格里斯沃尔德(Griswold)(D1中崔斯特姆的铁匠)在这十年中出生。</string>
-				<string>[1211]迪卡德•凯恩的父亲在一家制革工坊工作数年之后终于成了店主。</string>
-				<string>[1213]迪卡德•凯恩的父亲因病陷入疯狂。数周后，他与妻子闹翻，认为她所讲述的赫拉迪姆历史都不过是些故事。此前的数十年他一直都笃信不疑。</string>
-				<string>[1220s]艾德莉亚(Adria)在此十年中出生。</string>
-				<string>[1233]阿米莉亚•凯恩(Amelia Cain)(迪卡德•凯恩的母亲，译者注)生下小儿子杰瑞德(Jered)。</string>
+				<dict>
+					<key>time</key>
+					<string>[1150]</string>
+					<key>content</key>
+					<string>魁-黑刚泽布隆一世(Zebulon I)发起了萨卡兰姆宗教改革，呼吁信仰回归其禁欲和谦逊的本源。这项改革被民众广泛接受，并且引起了自主崇拜、世俗主义和神秘主义的潮流。萨卡兰姆最高评议会的大主教们视这些事件为教会权力的削弱，但却对泽布隆一世无能为力。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>在这一时期(12世纪中叶)，教廷派出传教士向西方传播萨卡兰姆教义。严酷的传道之旅催生了真言护卫者(Protectors of the Word)，该组织的目的是保护未来的传教士。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1172]</string>
+					<key>content</key>
+					<string>红圈镇(the Red Circle)在当时还是一座绞架。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1190s]</string>
+					<key>content</key>
+					<string>皮平(Pepin)(D1中崔斯特姆的医师)在这十年中出生。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1200]</string>
+					<key>content</key>
+					<string>威斯特玛瘟疫肆虐。加斯迪安二世(Justinian II)下令焚烧死者。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1202]</string>
+					<key>content</key>
+					<string>迪卡德•凯恩(Deckard Cain)出生。</string>
+					<key>image</key>
+					<string>11-1.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1210s]</string>
+					<key>content</key>
+					<string>格里斯沃尔德(Griswold)(D1中崔斯特姆的铁匠)在这十年中出生。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1211]</string>
+					<key>content</key>
+					<string>迪卡德•凯恩的父亲在一家制革工坊工作数年之后终于成了店主。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1213]</string>
+					<key>content</key>
+					<string>迪卡德•凯恩的父亲因病陷入疯狂。数周后，他与妻子闹翻，认为她所讲述的赫拉迪姆历史都不过是些故事。此前的数十年他一直都笃信不疑。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1220s]</string>
+					<key>content</key>
+					<string>艾德莉亚(Adria)在此十年中出生。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1233]</string>
+					<key>content</key>
+					<string>阿米莉亚•凯恩(Amelia Cain)(迪卡德•凯恩的母亲，译者注)生下小儿子杰瑞德(Jered)。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -158,71 +766,428 @@
 			<string>【萨卡兰姆宗教裁判】</string>
 			<key>content</key>
 			<array>
-				<string>[1225]魁-黑刚卡拉玛特(Karamat)继任后，最高评议会完成了还原泽布隆改革的目标。他们操纵卡拉玛特建立了一套严格的崇拜体系，以严刑厉法惩治异己。传教活动越发军事化。这标志着萨卡兰姆宗教裁判的开端。这一时期，萨卡兰姆教廷清剿了许多异端派别并且残酷镇压其他宗教，例如史卡辛米(Skatsim)。</string>
-				<string>[1234]特兰妮娅(Terania)的母亲去世，只剩下她的父亲杰罗南(Jeronnan)照看她。(两人均为官方小说人物)</string>
-				<string>[1237]阿米莉亚带着小儿子离开了崔斯特姆，丢下了迪卡德。母子二人在镇外被强盗所杀。</string>
-				<string>[1240s]吉莉安(Gillian)(D1酒馆女招待)在此十年中出生。</string>
-				<string>[1244]杰罗南和特兰妮娅搬到了吉库尔。这一年瓦瑞夫(Warriv)(D2NPC)正在带领堪杜拉斯到阿拉诺克沙漠之间的商队。</string>
-				<string>[约1245]萨卡兰姆牧师们试图封印墨菲斯托，但以失败告终。教廷堕入恶魔的腐化之中。</string>
-				<string>托利恩(Torion)(后成为威斯特玛骑士团团长)被国王科尼利厄斯(Cornelius)授封骑士。</string>
-				<string>夏娜(Shanar)(一位女魔法师，出现于官方小说和漫画)出生。</string>
-				<string>[1246]特兰妮娅被绑架并受到精神控制。她险些杀了她的父亲，随即失踪了。</string>
-				<string>[1247]法恩哈姆(Farnham)(小说人物)的女儿出生。</string>
-				<string>纷扰之年(Time of Troubles)达到巅峰。随着萨卡兰姆的举措愈发狂热，一队萨卡兰姆圣骑士脱离了教廷，建立了全新的“圣骑士兄弟会”(Order of Paladins)以对抗黑暗。他们一路西行追寻使命。</string>
-				<string>[1251]莱克斯(Lhex)(小说人物)出生。</string>
-				<string>[1254]肯特里尔•杜蒙(Kentril Dumon)(小说人物)成为佣兵队长。</string>
-				<string>[1255]热病横扫了布兰威尔(Bramwell)。</string>
-				<string>艾罗拉(Elora)死亡。</string>
-				<string>阿卡拉特(Akarat)(小说人物。并非萨卡兰姆先知阿卡拉特，只是重名。)出生。</string>
+				<dict>
+					<key>time</key>
+					<string>[1225]</string>
+					<key>content</key>
+					<string>魁-黑刚卡拉玛特(Karamat)继任后，最高评议会完成了还原泽布隆改革的目标。他们操纵卡拉玛特建立了一套严格的崇拜体系，以严刑厉法惩治异己。传教活动越发军事化。这标志着萨卡兰姆宗教裁判的开端。这一时期，萨卡兰姆教廷清剿了许多异端派别并且残酷镇压其他宗教，例如史卡辛米(Skatsim)。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1234]</string>
+					<key>content</key>
+					<string>特兰妮娅(Terania)的母亲去世，只剩下她的父亲杰罗南(Jeronnan)照看她。(两人均为官方小说人物)</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1237]</string>
+					<key>content</key>
+					<string>阿米莉亚带着小儿子离开了崔斯特姆，丢下了迪卡德。母子二人在镇外被强盗所杀。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1240s]</string>
+					<key>content</key>
+					<string>吉莉安(Gillian)(D1酒馆女招待)在此十年中出生。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1244]</string>
+					<key>content</key>
+					<string>杰罗南和特兰妮娅搬到了吉库尔。这一年瓦瑞夫(Warriv)(D2NPC)正在带领堪杜拉斯到阿拉诺克沙漠之间的商队。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[约1245]</string>
+					<key>content</key>
+					<string>萨卡兰姆牧师们试图封印墨菲斯托，但以失败告终。教廷堕入恶魔的腐化之中。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>托利恩(Torion)(后成为威斯特玛骑士团团长)被国王科尼利厄斯(Cornelius)授封骑士。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>夏娜(Shanar)(一位女魔法师，出现于官方小说和漫画)出生。</string>
+					<key>image</key>
+					<string>12-1.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1246]</string>
+					<key>content</key>
+					<string>特兰妮娅被绑架并受到精神控制。她险些杀了她的父亲，随即失踪了。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1247]</string>
+					<key>content</key>
+					<string>法恩哈姆(Farnham)(小说人物)的女儿出生。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>纷扰之年(Time of Troubles)达到巅峰。随着萨卡兰姆的举措愈发狂热，一队萨卡兰姆圣骑士脱离了教廷，建立了全新的“圣骑士兄弟会”(Order of Paladins)以对抗黑暗。他们一路西行追寻使命。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1251]</string>
+					<key>content</key>
+					<string>莱克斯(Lhex)(小说人物)出生。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1254]</string>
+					<key>content</key>
+					<string>肯特里尔•杜蒙(Kentril Dumon)(小说人物)成为佣兵队长。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1255]</string>
+					<key>content</key>
+					<string>热病横扫了布兰威尔(Bramwell)。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>艾罗拉(Elora)死亡。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>阿卡拉特(Akarat)(小说人物。并非萨卡兰姆先知阿卡拉特，只是重名。)出生。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>【崔斯特姆的黑暗(暗黑破坏神1)】</string>
+			<string>【暗黑破坏神1】之【崔斯特姆的黑暗】</string>
 			<key>content</key>
 			<array>
-				<string>[1258]在萨卡兰姆最高评议会的敕令和大主教拉扎鲁斯(Lazarus)的催促下，李奥瑞克(Leoric)前去管理堪杜拉斯的土地。他将赫拉迪姆修道院重建为一座萨卡兰姆教堂并在该处称王。</string>
-				<string>到达崔斯特姆后，拉扎鲁斯释放了迪亚布罗。迪亚布罗试图占据李奥瑞克的躯体，但没有成功。迪亚布罗开始影响国王的心智，久而久之，李奥瑞克陷入了疯狂。</string>
-				<string>[1259]欧格登(Ogden)(D1的酒馆老板)开始经营日升酒馆(Tavern of the Rising Sun)。</string>
-				<string>莱克斯被送至鲁•高因的贤者门下学习。</string>
-				<string>[1261]这一年，凯恩正在崔斯特姆的学堂里当老师。</string>
-				<string>[1262]扎尔(Zayl)找到了胡巴特•威瑟(Humbart Wessel)的头骨。他复生了后者，两人成了伙伴。</string>
-				<string>[1263]艾德莉亚来到崔斯特姆。</string>
-				<string>日渐疯狂的李奥瑞克开始囚禁所有质疑他的作为的人，并且处决这些叛徒。他对邻国威斯特玛宣战。</string>
-				<string>光明追寻者教派(Seekers of the Light)由于李奥瑞克的疯狂所引起的混乱而衰落了。</string>
-				<string>大主教拉扎鲁斯绑架了李奥瑞克的小儿子，年轻的王子艾伯莱希特(Albrecht)，用来作为迪亚布罗的容器。被迪亚布罗占据的艾伯莱希特变成了一个可怖的恶魔，将教堂最底层化为人间地狱。</string>
-				<string>艾伯莱希特的失踪彻底粉碎了李奥瑞克的理智。他折磨和处决所有他认为有意反抗他的人。整个崔斯特姆笼罩在恐怖之中。</string>
-				<string>李奥瑞克的军队在对威斯特玛的战争中惨败，指挥官拉齐达南(Lachdanan)归来后被迫杀死了李奥瑞克。国王临死前诅咒了拉齐达南和他的手下。不久之后，拉齐达南和御前护卫在安葬国王时被变成骷髅王的李奥瑞克袭击。国王的诅咒将拉齐达南和他的手下变成了游荡在大教堂的地底深处的地狱骑士(Hell Knights)。</string>
-				<string>大主教拉扎鲁斯带领数队村民进入大教堂拯救艾伯莱希特。他把他们丢给了一个叫屠夫的嗜血恶魔。只有少数人生还。</string>
-				<string>艾丹王子(Aidan)回到崔斯特姆。他和他的同伴进入了教堂地底。</string>
-				<string>屠夫、骷髅王和拉扎鲁斯被击败。</string>
-				<string>艾丹击败了迪亚布罗，艾伯莱希特也随之死去。艾丹试图用利用破碎的灵魂石，用自己的躯体囚禁迪亚布罗，但最终没能压制住它。</string>
-				<string>艾德莉亚找到艾丹，试图安慰他。他在这名年轻战士身上看到了迪亚布罗的影子，便转投其麾下，为他怀上了女儿莉娅(Leah)。</string>
-				<string>艾德莉亚和吉莉安前往卡尔蒂姆(Caldeum)。</string>
-				<string>艾丹成为黑暗流浪者，离开崔斯特姆向东而去。随后恶魔大军袭击了崔斯特姆并将它化为废墟。</string>
+				<dict>
+					<key>time</key>
+					<string>[1258]</string>
+					<key>content</key>
+					<string>在萨卡兰姆最高评议会的敕令和大主教拉扎鲁斯(Lazarus)的催促下，李奥瑞克(Leoric)前去管理堪杜拉斯的土地。他将赫拉迪姆修道院重建为一座萨卡兰姆教堂并在该处称王。</string>
+					<key>image</key>
+					<string>d1-1.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>到达崔斯特姆后，拉扎鲁斯释放了迪亚布罗。迪亚布罗试图占据李奥瑞克的躯体，但没有成功。迪亚布罗开始影响国王的心智，久而久之，李奥瑞克陷入了疯狂。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1259]</string>
+					<key>content</key>
+					<string>欧格登(Ogden)(D1的酒馆老板)开始经营日升酒馆(Tavern of the Rising Sun)。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>莱克斯被送至鲁•高因的贤者门下学习。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1261]</string>
+					<key>content</key>
+					<string>这一年，凯恩正在崔斯特姆的学堂里当老师。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1262]</string>
+					<key>content</key>
+					<string>扎尔(Zayl)找到了胡巴特•威瑟(Humbart Wessel)的头骨。他复生了后者，两人成了伙伴。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1263]</string>
+					<key>content</key>
+					<string>艾德莉亚来到崔斯特姆。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>日渐疯狂的李奥瑞克开始囚禁所有质疑他的作为的人，并且处决这些叛徒。他对邻国威斯特玛宣战。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>光明追寻者教派(Seekers of the Light)由于李奥瑞克的疯狂所引起的混乱而衰落了。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>大主教拉扎鲁斯绑架了李奥瑞克的小儿子，年轻的王子艾伯莱希特(Albrecht)，用来作为迪亚布罗的容器。被迪亚布罗占据的艾伯莱希特变成了一个可怖的恶魔，将教堂最底层化为人间地狱。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>艾伯莱希特的失踪彻底粉碎了李奥瑞克的理智。他折磨和处决所有他认为有意反抗他的人。整个崔斯特姆笼罩在恐怖之中。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>李奥瑞克的军队在对威斯特玛的战争中惨败，指挥官拉齐达南(Lachdanan)归来后被迫杀死了李奥瑞克。国王临死前诅咒了拉齐达南和他的手下。不久之后，拉齐达南和御前护卫在安葬国王时被变成骷髅王的李奥瑞克袭击。国王的诅咒将拉齐达南和他的手下变成了游荡在大教堂的地底深处的地狱骑士(Hell Knights)。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>大主教拉扎鲁斯带领数队村民进入大教堂拯救艾伯莱希特。他把他们丢给了一个叫屠夫的嗜血恶魔。只有少数人生还。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>艾丹王子(Aidan)回到崔斯特姆。他和他的同伴进入了教堂地底。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>屠夫、骷髅王和拉扎鲁斯被击败。</string>
+					<key>image</key>
+					<string>d1-2.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>艾丹击败了迪亚布罗，艾伯莱希特也随之死去。艾丹试图用利用破碎的灵魂石，用自己的躯体囚禁迪亚布罗，但最终没能压制住它。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>艾德莉亚找到艾丹，试图安慰他。他在这名年轻战士身上看到了迪亚布罗的影子，便转投其麾下，为他怀上了女儿莉娅(Leah)。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>艾德莉亚和吉莉安前往卡尔蒂姆(Caldeum)。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>艾丹成为黑暗流浪者，离开崔斯特姆向东而去。随后恶魔大军袭击了崔斯特姆并将它化为废墟。</string>
+					<key>image</key>
+					<string>d1-3.png</string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>【三魔之猎(暗黑破坏神2)】</string>
+			<string>【暗黑破坏神2】之【三魔之猎】</string>
 			<key>content</key>
 			<array>
-				<string>[1264]詹姆(James)(小说人物)的女儿在这一年出生。</string>
-				<string>艾德莉亚在这一年生下了莉娅。她把她托付给卡尔蒂姆的吉莉安照料便一去无踪了。</string>
-				<string>诺瑞克•维扎兰(Norrec Vizharan)(小说人物)和他的同伴遭遇了巴图克的铠甲。铠甲将自己绑定在诺瑞克身上并且控制了他，迫使他东行。</string>
-				<string>一队英雄接受了击败迪亚布罗和他的兄弟们的任务。他们杀死了艾丹曾经的队友，如今被女魔安达利尔(Andariel)腐化的血乌鸦(Blood Raven)，并且打开了一道通往崔斯特姆的传送门救出了迪卡德•凯恩。随后英雄们击败了安达利尔，为盲眼姐妹会(Sisterhood of the Sightless Eye)收复了她们的修道院，接着向东追踪黑暗流浪者。</string>
-				<string>在卡拉•夜影(Kara Nightshadow)(小说人物，一位女性死灵法师)的帮助下，诺瑞克摆脱了巴图克的铠甲。与此同时，黑暗流浪者到达了鲁•高因。</string>
-				<string>英雄们到达鲁•高因，在塔•拉夏的古墓中摧毁了魔王督瑞尔(Duriel)，救出了大天使泰瑞尔。英雄们发现巴尔已经逃脱了灵魂石的禁锢。</string>
-				<string>黑暗流浪者完成了变形，成为迪亚布罗；墨菲斯托和被腐化的萨卡兰姆最高评议会被英雄们击败于库拉斯特的丛林深处。</string>
-				<string>英雄们来到混沌要塞。他们击败了天堂的叛徒衣卒尔(Izual)，横扫了地狱。迪亚布罗被击败于混沌避难所(Chaos Sanctuary)，它和墨菲斯托的灵魂石在地狱熔炉(Hellforge)的铁砧上灰飞烟灭。</string>
-				<string>肯特里尔•杜蒙和手下的佣兵进入了传说之城乌瑞。他与死灵法师扎尔合力揭开了乌瑞的黑暗秘密。</string>
-				<string>[1265]维拉(Valla)大约在此时出生。</string>
-				<string>巴尔向亚瑞特山进军。</string>
-				<string>英雄们紧随巴尔之后并击败了最后一位地狱魔神。尽管如此，巴尔的恶魔大军仍在肆虐。</string>
-				<string>大天使泰瑞尔发现巴尔已经成功腐化了藏匿于亚瑞特山深处的世界之石，不得已之下摧毁了它。这导致了亚瑞特山爆炸，摧毁了周边地区和巴尔的军队。</string>
-				<string>击败了三魔神的英雄们回到了他们的家乡。凯恩知道，由于世界之石被毁，庇护之地如今暴露在天堂与地狱的视线之下。他开始寻找拯救人间的办法。</string>
-				<string>扎尔从阿斯特洛迦(Astrogha)(一个恶魔)的阴谋下拯救了威斯特玛。</string>
-				<string>萨卡兰姆教廷由于恶魔腐化而分崩离析。哈坎一世(Emperor Hakan I)将凯吉斯坦首都迁至卡尔蒂姆。几年后，卡尔蒂姆成为庇护之地最繁荣和富有影响力的城市。</string>
+				<dict>
+					<key>time</key>
+					<string>[1264]</string>
+					<key>content</key>
+					<string>詹姆(James)(小说人物)的女儿在这一年出生。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>艾德莉亚在这一年生下了莉娅。她把她托付给卡尔蒂姆的吉莉安照料便一去无踪了。</string>
+					<key>image</key>
+					<string>d2-1.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>诺瑞克•维扎兰(Norrec Vizharan)(小说人物)和他的同伴遭遇了巴图克的铠甲。铠甲将自己绑定在诺瑞克身上并且控制了他，迫使他东行。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>一队英雄接受了击败迪亚布罗和他的兄弟们的任务。他们杀死了艾丹曾经的队友，如今被女魔安达利尔(Andariel)腐化的血乌鸦(Blood Raven)，并且打开了一道通往崔斯特姆的传送门救出了迪卡德•凯恩。随后英雄们击败了安达利尔，为盲眼姐妹会(Sisterhood of the Sightless Eye)收复了她们的修道院，接着向东追踪黑暗流浪者。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>在卡拉•夜影(Kara Nightshadow)(小说人物，一位女性死灵法师)的帮助下，诺瑞克摆脱了巴图克的铠甲。与此同时，黑暗流浪者到达了鲁•高因。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>英雄们到达鲁•高因，在塔•拉夏的古墓中摧毁了魔王督瑞尔(Duriel)，救出了大天使泰瑞尔。英雄们发现巴尔已经逃脱了灵魂石的禁锢。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>黑暗流浪者完成了变形，成为迪亚布罗；墨菲斯托和被腐化的萨卡兰姆最高评议会被英雄们击败于库拉斯特的丛林深处。</string>
+					<key>image</key>
+					<string>d2-2png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>英雄们来到混沌要塞。他们击败了天堂的叛徒衣卒尔(Izual)，横扫了地狱。迪亚布罗被击败于混沌避难所(Chaos Sanctuary)，它和墨菲斯托的灵魂石在地狱熔炉(Hellforge)的铁砧上灰飞烟灭。</string>
+					<key>image</key>
+					<string>d2-3.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>肯特里尔•杜蒙和手下的佣兵进入了传说之城乌瑞。他与死灵法师扎尔合力揭开了乌瑞的黑暗秘密。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1265]</string>
+					<key>content</key>
+					<string>维拉(Valla)大约在此时出生。</string>
+					<key>image</key>
+					<string>d2-4.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>巴尔向亚瑞特山进军。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>英雄们紧随巴尔之后并击败了最后一位地狱魔神。尽管如此，巴尔的恶魔大军仍在肆虐。</string>
+					<key>image</key>
+					<string>d2-5.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>大天使泰瑞尔发现巴尔已经成功腐化了藏匿于亚瑞特山深处的世界之石，不得已之下摧毁了它。这导致了亚瑞特山爆炸，摧毁了周边地区和巴尔的军队。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>击败了三魔神的英雄们回到了他们的家乡。凯恩知道，由于世界之石被毁，庇护之地如今暴露在天堂与地狱的视线之下。他开始寻找拯救人间的办法。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>扎尔从阿斯特洛迦(Astrogha)(一个恶魔)的阴谋下拯救了威斯特玛。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>萨卡兰姆教廷由于恶魔腐化而分崩离析。哈坎一世(Emperor Hakan I)将凯吉斯坦首都迁至卡尔蒂姆。几年后，卡尔蒂姆成为庇护之地最繁荣和富有影响力的城市。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -230,32 +1195,165 @@
 			<string>【短暂的和平】</string>
 			<key>content</key>
 			<array>
-				<string>魔神被击败后，庇护之地迎来了一段相对和平的时期。它持续了二十年。</string>
-				<string>在这些年中，崔斯特姆的故事和教堂地下宝藏的传说吸引了许多人，商人和冒险者纷至沓来。大教堂被洗劫一空。为此而建的新崔斯特姆陷入了尴尬的境地。</string>
-				<string>[1266]李敏出生。</string>
-				<string>[1272]凯恩开始抚养莉娅。两人挫败了已经进入人间的彼勒尔(Belial)的阴谋。但这个小挫折并未对彼勒尔的计划产生久远影响。</string>
-				<string>[1284]雅各(Jacob)(官方小说和漫画中出现的人物)和夏娜分道扬镳。</string>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>魔神被击败后，庇护之地迎来了一段相对和平的时期。它持续了二十年。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>在这些年中，崔斯特姆的故事和教堂地下宝藏的传说吸引了许多人，商人和冒险者纷至沓来。大教堂被洗劫一空。为此而建的新崔斯特姆陷入了尴尬的境地。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1266]</string>
+					<key>content</key>
+					<string>李敏出生。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1272]</string>
+					<key>content</key>
+					<string>凯恩开始抚养莉娅。两人挫败了已经进入人间的彼勒尔(Belial)的阴谋。但这个小挫折并未对彼勒尔的计划产生久远影响。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string>[1284]</string>
+					<key>content</key>
+					<string>雅各(Jacob)(官方小说和漫画中出现的人物)和夏娜分道扬镳。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>【末世之战(暗黑破坏神3)】</string>
+			<string>【暗黑破坏神3】之【末世之战】</string>
 			<key>content</key>
 			<array>
-				<string>[1285]阿卜杜•哈兹尔(Abd al-Hazir)(学者，D3游戏中各类历史书和怪物介绍的作者)离开卡尔蒂姆开始云游世界，记录世上的奇闻异事。</string>
-				<string>泰瑞尔由于干涉凡间事务与英普瑞斯闹翻。他选择成为肉体凡胎坠落于崔斯特姆的老教堂上。陨星的力量唤醒了新崔斯特姆周围的死者以及骷髅王李奥瑞克。</string>
-				<string>奈非天来到新崔斯特姆。在莉娅和凯恩的帮助下，奈非天击败了骷髅王并救出了泰瑞尔，但凯恩在此期间被麦格达(Maghda)所杀。随后他们前往东方抵抗彼勒尔。</string>
-				<string>一行人抵达卡尔蒂姆。他们追踪麦格达和巫师会至阿尔卡纳斯废墟，并将杀死了麦格达为凯恩报仇。接着奈非天从实际上是彼勒尔的蛇怪恶魔的皇家卫兵手中救出了莉娅。他们逃进了下水道，并从彼勒尔的爪牙手里救出了莉娅的母亲艾德莉亚。</string>
-				<string>在艾德莉亚的帮助下，英雄们找到了佐敦•库勒的黑灵魂石。他们从彼勒尔的袭击中拯救了卡尔蒂姆，并且深入皇宫击败了彼勒尔，将其灵魂囚禁于黑灵魂石中。</string>
-				<string>最后一个地狱魔王阿兹莫丹(Azmodan)告知莉娅，地狱大军将会从亚瑞特巨坑(Arreat Crater)入侵庇护之地。一行人闻讯北行。</string>
-				<string>阿兹莫丹的大军围攻巴斯廷要塞(Bastion’s Keep)，但英雄的到来逆转了局势。阿兹莫丹随后被击败，灵魂被囚禁在黑灵魂石中。</string>
-				<string>艾德莉亚露出了真面目，她让莉娅体内的迪亚布罗苏醒并且让她成为了黑灵魂石的容器。地狱领主们合而为一，迪亚布罗成为唯一至恶。它前往天堂，英雄们紧追不舍。</string>
-				<string>迪亚布罗进攻天堂，但再次败于英雄之手，天堂得到了拯救。泰瑞尔回到了他的同胞之中，接替了智慧大天使的位置，宣布天堂与庇护之地将团结一心。</string>
-				<string>迪亚布罗被击败后两个月，泰瑞尔组建了新赫拉迪姆。他们的第一个任务是从天堂偷取已经开始腐化天使议会的黑灵魂石。</string>
-				<string>泰瑞尔和赫拉迪姆取得了黑灵魂石并将它藏匿于庇护之地。然而已经成为死亡天使的马萨伊尔(Malthael)现身抢走了黑灵魂石。</string>
-				<string>马萨伊尔的夺魂者袭击威斯特玛。泰瑞尔和他的盟友竭尽全力保护当地民众。</string>
-				<string>文顿领主(Lord Wynton)趁乱煽动平民发动叛乱。文顿谋杀了国王加斯迪安四世(Justinian IV)，但在登基篡权之前就被奈非天所杀。</string>
-				<string>马萨伊尔被击败，但黑灵魂石也被摧毁，迪亚布罗再度被释放。</string>
+				<dict>
+					<key>time</key>
+					<string>[1285]</string>
+					<key>content</key>
+					<string>阿卜杜•哈兹尔(Abd al-Hazir)(学者，D3游戏中各类历史书和怪物介绍的作者)离开卡尔蒂姆开始云游世界，记录世上的奇闻异事。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>泰瑞尔由于干涉凡间事务与英普瑞斯闹翻。他选择成为肉体凡胎坠落于崔斯特姆的老教堂上。陨星的力量唤醒了新崔斯特姆周围的死者以及骷髅王李奥瑞克。</string>
+					<key>image</key>
+					<string>d3-1.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>奈非天来到新崔斯特姆。在莉娅和凯恩的帮助下，奈非天击败了骷髅王并救出了泰瑞尔，但凯恩在此期间被麦格达(Maghda)所杀。随后他们前往东方抵抗彼勒尔。</string>
+					<key>image</key>
+					<string>d3-2.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>一行人抵达卡尔蒂姆。他们追踪麦格达和巫师会至阿尔卡纳斯废墟，并将杀死了麦格达为凯恩报仇。接着奈非天从实际上是彼勒尔的蛇怪恶魔的皇家卫兵手中救出了莉娅。他们逃进了下水道，并从彼勒尔的爪牙手里救出了莉娅的母亲艾德莉亚。</string>
+					<key>image</key>
+					<string>d3-3.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>在艾德莉亚的帮助下，英雄们找到了佐敦•库勒的黑灵魂石。他们从彼勒尔的袭击中拯救了卡尔蒂姆，并且深入皇宫击败了彼勒尔，将其灵魂囚禁于黑灵魂石中。</string>
+					<key>image</key>
+					<string>d3-4.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>最后一个地狱魔王阿兹莫丹(Azmodan)告知莉娅，地狱大军将会从亚瑞特巨坑(Arreat Crater)入侵庇护之地。一行人闻讯北行。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>阿兹莫丹的大军围攻巴斯廷要塞(Bastion’s Keep)，但英雄的到来逆转了局势。阿兹莫丹随后被击败，灵魂被囚禁在黑灵魂石中。</string>
+					<key>image</key>
+					<string>d3-5.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>艾德莉亚露出了真面目，她让莉娅体内的迪亚布罗苏醒并且让她成为了黑灵魂石的容器。地狱领主们合而为一，迪亚布罗成为唯一至恶。它前往天堂，英雄们紧追不舍。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>迪亚布罗进攻天堂，但再次败于英雄之手，天堂得到了拯救。泰瑞尔回到了他的同胞之中，接替了智慧大天使的位置，宣布天堂与庇护之地将团结一心。</string>
+					<key>image</key>
+					<string>d3-6.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>迪亚布罗被击败后两个月，泰瑞尔组建了新赫拉迪姆。他们的第一个任务是从天堂偷取已经开始腐化天使议会的黑灵魂石。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>泰瑞尔和赫拉迪姆取得了黑灵魂石并将它藏匿于庇护之地。然而已经成为死亡天使的马萨伊尔(Malthael)现身抢走了黑灵魂石。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>马萨伊尔的夺魂者袭击威斯特玛。泰瑞尔和他的盟友竭尽全力保护当地民众。</string>
+					<key>image</key>
+					<string>d3-7.png</string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>文顿领主(Lord Wynton)趁乱煽动平民发动叛乱。文顿谋杀了国王加斯迪安四世(Justinian IV)，但在登基篡权之前就被奈非天所杀。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>time</key>
+					<string></string>
+					<key>content</key>
+					<string>马萨伊尔被击败，但黑灵魂石也被摧毁，迪亚布罗再度被释放。</string>
+					<key>image</key>
+					<string></string>
+				</dict>
 			</array>
 		</dict>
 	</array>

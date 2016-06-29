@@ -48,11 +48,14 @@ static D3SharedResource *instance = nil;
         NSString *cgPathString      = [[NSBundle mainBundle] pathForResource:@"d3cg" ofType:@"plist"];
         NSDictionary *cgDict        = [NSDictionary dictionaryWithContentsOfFile:cgPathString];
         _cgArray                    = [cgDict objectForKey:@"d3cg"];
-        
-        NSString *bookPathString      = [[NSBundle mainBundle] pathForResource:@"d3book" ofType:@"plist"];
-        NSDictionary *bookDict        = [NSDictionary dictionaryWithContentsOfFile:bookPathString];
-        _bookArray                    = [bookDict objectForKey:@"d3book"];
 
+        NSString *bookPathString    = [[NSBundle mainBundle] pathForResource:@"d3book" ofType:@"plist"];
+        NSDictionary *bookDict      = [NSDictionary dictionaryWithContentsOfFile:bookPathString];
+        _bookArray                  = [bookDict objectForKey:@"d3book"];
+
+        NSString *cartoonPathString = [[NSBundle mainBundle] pathForResource:@"d3cartoon" ofType:@"plist"];
+        NSDictionary *cartoonDict   = [NSDictionary dictionaryWithContentsOfFile:cartoonPathString];
+        _cartoonDict                = [cartoonDict objectForKey:@"d3cartoon"];
     }
     
     return self;

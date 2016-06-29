@@ -14,6 +14,7 @@
 @property(copy, nonatomic, readonly) NSArray *mapArray;
 @property(copy, nonatomic, readonly) NSArray *cgArray;
 @property(copy, nonatomic, readonly) NSArray *bookArray;
+@property(copy, nonatomic, readonly) NSDictionary *cartoonDict;
 
 + (instancetype)sharedInstance;
 

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AdViewController.h"
 
-@interface D3TimeLineDetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface D3TimeLineDetailViewController : AdViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property(weak, nonatomic) IBOutlet UITableView *timeLineTableView;
 

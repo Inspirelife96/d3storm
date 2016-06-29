@@ -10,7 +10,7 @@
 
 @interface D3CGCell : UICollectionViewCell
 
-@property (nonatomic, weak) IBOutlet UIWebView *videoWebView;
+@property (nonatomic, weak) IBOutlet UIImageView *videoImageView;
 @property (nonatomic, weak) IBOutlet UILabel *videoNameLabel;
 
 @property(copy, nonatomic) NSDictionary *videoInfoDict;

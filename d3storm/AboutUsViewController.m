@@ -19,8 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"关于我们";
-    content = @"\n\n\t学iOS一年多了，很想对自己的知识进行一个梳理，而最近又陆陆续续看到了不少iOS面试题，所以想整理下这些问题，同时写一个iOS面试题应用，所以就有了这个应用。 \n\n\t面试题所有的内容大部分来自于网络的搜集，所以我不是一个创造者，而是一个搬运工。我尽量把题目，尤其是参考答案的出处列明。若有任何疑问，建议，意见，请联系 inspirelife@hotmail.com。\n\n\t您也可以访问http://www.jianshu.com/p/403ee06a584e 来浏览这些面试题以及答案。\n\n\t这个应用的源码以及制作过程也会陆续在简书中发布，欢迎大家关注我的简书http://www.jianshu.com/users/6dad13dfc23e 来获得最新动态。";
+    self.navigationItem.title = @"关于[小说，CG合集 For 暗黑破坏神]";
+    content = @"\n\n\t一直非常喜欢暴雪的游戏，接触暗黑系列最早是在大一的时候，那时候去学校图书馆机房，正好有暗黑1的游戏，那时候就被这个游戏深深的迷住了，后来又有了暗黑2，几乎陪伴了我大二的整个暑假。\n\n\t暴雪出品，必属精品，这不光是因为游戏本身，更在于他背后强大的游戏世界观。暗黑系列从1开始到现在的3，经历了10多年，暗黑破坏神的背景故事也发展的非常丰满。官方的各种小说，动画，CG配合上周边产品，暗黑破坏神就是一个美轮美奂的魔幻世界\n\n\t这个应用的内容都来源于网络，主要搜集于凯恩之角，暗黑历史吧，以及优酷。感谢孔却等各位翻译大神，将小说翻译为中文，以及各位暗黑历史研究者的分析整理，以及暴雪，网易的内容。所以，如果有任何意见，建议，或者版权问题，请联系inspirelife@hotmail.com，我们会立即进行处理。\n\n\t希望大家喜欢这次的暗黑之旅。";
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.tableFooterView = [[UIView alloc] init];
 }

@@ -28,7 +28,7 @@
     _timeLineTableView.dataSource = self;
     _timeLineTableView.tableFooterView = [[UIView alloc] init];
     
-    self.navigationItem.title = @"暗黑时间线";
+    self.navigationItem.title = @"时间线";
     
     NSArray *imageArray = [NSArray arrayWithObjects:
                            [UIImage imageNamed:@"d3image1"],
@@ -56,6 +56,14 @@
     infinitePageView.delegate = self;
     
     [_timeLineView addSubview:infinitePageView];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    if (self.tabBarController) {
+        self.tabBarController.tabBar.hidden = NO;
+    }
 }
 
 - (void)didReceiveMemoryWarning {

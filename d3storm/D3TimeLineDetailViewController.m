@@ -11,6 +11,8 @@
 #import "D3TimeLineCell.h"
 #import "D3TimeLineDataModel.h"
 #import "UITableView+FDTemplateLayoutCell.h"
+#import "AdManager.h"
+#import "UIViewController+AppPromotion.h"
 
 @interface D3TimeLineDetailViewController ()
 
@@ -27,6 +29,47 @@
     
     self.navigationItem.title = _titleString;
 }
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    if (self.tabBarController) {
+        self.tabBarController.tabBar.hidden = YES;
+    }
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:YES];
+    
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:kUserDefaultIsAdRemoved]) {
+        return;
+    } else {
+        NSInteger randomValue = arc4random()%10;
+        NSNumber *appId = [self getPromationAppInfo];
+        
+        if (randomValue == 9) {
+            if (appId) {
+                [self promotionApp:appId];
+            } else {
+                if ([[AdManager sharedInstance] isInterstitialReady]) {
+                    [[AdManager sharedInstance] presentInterstitialAdFromRootViewController:self.navigationController];
+                } else {
+                    [[AdManager sharedInstance] createInterstitial];
+                }
+            }
+        } else if (randomValue == 8) {
+            if ([[AdManager sharedInstance] isInterstitialReady]) {
+                [[AdManager sharedInstance] presentInterstitialAdFromRootViewController:self.navigationController];
+            } else {
+                [[AdManager sharedInstance] createInterstitial];
+                if (appId) {
+                    [self promotionApp:appId];
+                }
+            }
+        }
+    }
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -50,7 +93,7 @@
     
     cell.fd_enforceFrameLayout = NO; // Enable to use "-sizeThatFits:"
     
-    D3TimeLineDataModel *timeLineData = [D3TimeLineDataModel initWithString:_timeLineArray[indexPath.row]];
+    D3TimeLineDataModel *timeLineData = [D3TimeLineDataModel initWithDictionary:_timeLineArray[indexPath.row]];
     
     cell.timeLineData = timeLineData;
 }

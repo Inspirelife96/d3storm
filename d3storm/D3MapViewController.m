@@ -34,14 +34,10 @@
     _mapTableView.tableFooterView = [[UIView alloc] init];
     
     self.navigationItem.title = @"世界地图";
-
-
-    
 }
 
 
 - (void)viewDidLayoutSubviews {
-    
     [super viewDidLayoutSubviews];
     
     UIImage *mapImage = [UIImage imageNamed:@"worldmap"];

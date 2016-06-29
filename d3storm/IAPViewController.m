@@ -256,6 +256,7 @@
 
 - (void)handlePurchasesCancelNotification:(NSNotification *)notification {
     [MBProgressHUD hideHUDForView:self.view animated:YES];
+    [self updateUI];
 }
 
 - (void)handleRestoreCompleteNotification:(NSNotification *)notification {

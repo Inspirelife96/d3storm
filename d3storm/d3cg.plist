@@ -6,55 +6,6 @@
 	<array>
 		<dict>
 			<key>name</key>
-			<string>暗黑破坏神2</string>
-			<key>cgs</key>
-			<array>
-				<dict>
-					<key>cgname</key>
-					<string>修女的悲怮</string>
-					<key>cglink</key>
-					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTY4MTg0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
-				</dict>
-				<dict>
-					<key>cgname</key>
-					<string>沙漠的旅程</string>
-					<key>cglink</key>
-					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTcwMTM2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
-				</dict>
-				<dict>
-					<key>cgname</key>
-					<string>墨菲斯托丛林</string>
-					<key>cglink</key>
-					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTcxNTYw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
-				</dict>
-				<dict>
-					<key>cgname</key>
-					<string>进入地狱</string>
-					<key>cglink</key>
-					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTcyOTU2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
-				</dict>
-				<dict>
-					<key>cgname</key>
-					<string>恐怖的终结</string>
-					<key>cglink</key>
-					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTc0NTI4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
-				</dict>
-				<dict>
-					<key>cgname</key>
-					<string>找寻巴尔</string>
-					<key>cglink</key>
-					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTc4Njg0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
-				</dict>
-				<dict>
-					<key>cgname</key>
-					<string>毁灭的末日</string>
-					<key>cglink</key>
-					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTc5NTMy&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>暗黑破坏神3：愤怒</string>
 			<key>cgs</key>
 			<array>
@@ -63,6 +14,10 @@
 					<string>愤怒</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XMzkzNDc4Nzk2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>d3-fennu.png</string>
+					<key>cgdescription</key>
+					<string>故事讲述世界诞生之后，便开始了天使与恶魔之间的战争——永恒之战，开端从这里开始。</string>
 				</dict>
 			</array>
 		</dict>
@@ -73,21 +28,47 @@
 			<array>
 				<dict>
 					<key>cgname</key>
-					<string>恶魔猎手</string>
+					<string>魔猎人</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XMzk1NTY4Nzg4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>role-emolieshou.png</string>
+					<key>cgdescription</key>
+					<string>这些自称为猎魔人的人并非一个人群或国家。她们都是幸存者 -- 或者说是被地狱生物摧毁了过去的躯壳。她们的家园被焚毁，多数人会因此放弃生活 -- 但也会有少数人，安葬死去的人，联合在一起，寻求复仇之路。
+
+醒来之后，猎魔人们看到的东西其实和梦境差不多。但，现在，她们已经拥有了可以“回敬”的力量！
+
+她们人数虽少，但猎魔人会追寻恶魔的踪迹到天涯海角，对她们来说哪怕只是拯救多一条生命，世界也会变的更好。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>武僧</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XMjY1Mjc0MDUy&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>role-wusen.png</string>
+					<key>cgdescription</key>
+					<string>来自梵罗达尼的武僧刻苦地训练着他们的身体和意志，期望自己成为伊夫葛洛中最强大的神圣战士。在修道院中，他们忍受着肉体和精神上的双重考验，以此来学习无法比拟的纪律并以此证明他们的专注。
+
+日积月累的净化帮助武僧拥有了纯净的灵魂，并得以克服那些侵蚀普通人内心的邪恶。在习武的过程中，他们铸就了无人能敌的身体，也修炼出了高于常人的思想境界。他们不但是徒手战斗的大师，也是擅使各种兵器的高人。
+
+经过了毕生的修行，炼成正果的武僧获得允许，离开修道院去外面执行万神的意愿。他们额头上的符号标志着他们是幸存者、修成者以及社会的基石。
+
+武僧体现了伊夫葛洛的每一步与出击皆显出一千零一众神的旨意。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>魔法师</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XMzk1NTc1NjI4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>role-mofashi.png</string>
+					<key>cgdescription</key>
+					<string>无论是仙赛还是卡迪安，魔法使用者都被以“法师”或“魔术师”冠名，但对比那些被冠上“魔法师”之名的施法者，他们就如同雄狮面前的猫咪一样弱小。虽然两者的共性也仅止于都掌握并使用神秘的奥术能量。
+
+如果她们可以掌握双刃剑一样的礼物并避免把自己毁灭，那么这些崛起的奥术专家们将能最终看透自己命运的终点。
+
+魔法师数量极少，不但因为她们必须天资过人，更因为她们的叛逆和反感魔法学校里不计其数的安全的魔法使用方法的教诲。魔法师独特的态度似乎更加激发了她们的天赋 -- 她们可以根据自己的意愿或本能随意掌控魔法的力量。当然由于缺乏精进时常有不幸的悲剧发生……但再多的血的教训也无法阻止她们沉迷在她们不稳定的力量之中。</string>
 				</dict>
 			</array>
 		</dict>
@@ -101,36 +82,60 @@
 					<string>末日预兆</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NTk4MDgw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>cg1.png</string>
+					<key>cgdescription</key>
+					<string>在世界之石被毁灭的二十年后，一颗流星划过了圣休亚瑞的天空，世界各地不同的记录都预示着末日将至。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>泰瑞尔的牺牲</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NjAzMDY4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>cg2.png</string>
+					<key>cgdescription</key>
+					<string>为了保护圣休亚瑞世界，泰瑞尔背叛了至高天，以凡人的身份从天空坠落，他来此是为了警告人类命运书卷预示的末日危机。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>黑暗灵魂石</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NjA4NDk2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>cg3.png</string>
+					<key>cgdescription</key>
+					<string>为了消灭残存的魔王彼列和阿兹莫丹，让圣休亚瑞从此太平，英雄们开始了寻找黑暗灵魂石的旅途。利用佐敦·库勒的头颅，莉亚唤醒了佐敦·库勒的灵魂，之后在库勒的指引下，英雄们终于找到了黑暗灵魂石。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>天堂之门</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NjEyNTM2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>cg4.png</string>
+					<key>cgdescription</key>
+					<string>爱德莉雅在胜利到来的最后一刻背叛了世界，她将黑暗灵魂石中封印的七大魔王之魂灌入了莉亚的体内。创世以来最大的邪恶在莉亚的体内复生，七魔此时合为一体。在天堂之门，复生的迪亚波罗击败英普瑞斯，开始进攻高阶梯天堂！</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>新的希望</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NjE1NTcy&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>cg5.png</string>
+					<key>cgdescription</key>
+					<string>在至高天中，完全觉醒的涅法雷姆英雄们打败了绝望之王拉卡诺斯(Rakanoth)和天使背叛者依卒尔后，到达了至高天的最高处。七魔合一迪亚布罗的目标毁灭是至高天的核心水晶拱门(由阿努的脊椎变成，天使由此诞生)，善之化身阿努与恶之化身塔萨梅隆的战争经历了千万个世纪后再度重演。在混战之后，涅法雷姆英雄们消灭了迪亚布罗，罪恶之源的尸骸在坠落中化做片片灰烬。至高天在水晶拱门的和声中恢复了圣洁，而义天使泰瑞尔选择以凡人的身份重归天堂，“既然正义已获得伸张，我将化身为智慧，以告慰那些为此牺牲的人们。从今而后，天使与人类将共同努力，一起迎接光明璀璨的未来。”</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>夺魂之镰</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XOTE3MzgzNDY4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>cg6.png</string>
+					<key>cgdescription</key>
+					<string>自从奈非天打败大魔神的那一刻起，马萨伊尔就决定要消灭所有拥有恶魔血统的存在——包括人类——从而终结永恒之战。他袭击了新的赫拉迪姆，并夺走了黑暗灵魂石。其麾下由可怕的天使与亡者所组成的夺魂者大军，开始屠戮威斯特玛一带的民众，不断地收集人类的灵魂。每收集到一副灵魂，马萨伊尔的力量就增加一份。</string>
 				</dict>
 			</array>
 		</dict>
@@ -144,120 +149,281 @@
 					<string>暗黑破坏神3第一幕过场01(野蛮人)</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NDk5Nzg0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act1-1-yemanren.png</string>
+					<key>cgdescription</key>
+					<string>野蛮人来自西部大陆北方的恐惧之地，他们通过操控自己的怒气来施展独特的战斗艺术。野蛮人在亚瑞特圣山爆炸后四处流浪，寻找着自己宿命感的缺失。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第一幕过场01(圣教军)</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XMTI5NDk4MjM2MA==&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act1-1-shengjiaojun.png</string>
+					<key>cgdescription</key>
+					<string>游历四方的圣教军，往往是师徒一起铲除圣休亚瑞的邪魔。他们有些出于正义而战；有些希望有一天能驱除撒卡兰姆的腐化。当一对圣教军当中的师父死去，弟子便接手师父的武器与身分…圣战的使命永不休止。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第一幕过场01(武僧)</string>
 					<key>cglink</key>
-					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA0NjAzMDY4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTA2NzA0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act1-1-wusen.png</string>
+					<key>cgdescription</key>
+					<string>武僧来自苟戈拉的伊夫葛洛(Ivgorod)，是梵罗达尼教的信徒，武僧擅长最纯粹的肉体格斗，华丽的连击技巧能快速致敌人于死地。梵罗达尼教的总部是设在伊夫葛洛的浮天修院，其教义致力于让世界平衡于秩序和混乱之中。梵罗达尼教由九位宗座领导，他们中四位属于秩序，四位属于混乱，剩下一位中立。梵罗达尼教中每个武僧都会从他们信仰的一千零一位自然神灵中选择一位做为自己的守护神。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第一幕过场01(巫医)</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTA4NDIw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act1-1-wuyi.png</string>
+					<key>cgdescription</key>
+					<string>巫医来自特干泽(Teganze)地区托拉杰(Torajan)丛林的安巴鲁部族，巫医会用毒、火焰和诅咒攻击自己的敌人，还能召唤出各种诡异的丛林生物和尸体生物。安巴鲁人相信一种叫“无形之境”的信仰，认为死后的人会生活在无形之境。为了滋养滋养无形之地，安巴鲁各部族间的巫医会定期开展猎杀战争，用敌人的鲜血来祭祀先祖。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第一幕过场01(魔法师)</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTEyMzE2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act1-1-mofashi.png</string>
+					<key>cgdescription</key>
+					<string>魔法师出生于东部大陆北边的仙塞，为了振兴各自的家族，他们被派到卡吉斯坦进行法师的训练，每一个秘术师都都拥有让人嫉妒的魔法天赋，生下来便是法术的容器。因为秘术师的天赋异禀，他们的年轻令他们显得非常危险，他们可以凭借自己的意志扭曲光线甚至时间。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第一幕过场02</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTExOTY0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act1-2.png</string>
+					<key>cgdescription</key>
+					<string>在世界之石被毁灭的二十年后，一颗流星划过了圣休亚瑞的天空，世界各地不同的记录都预示着末日将至。各地的英雄们在流星陨落之地——新崔斯特姆集结，他们包括了恐惧之地(亚瑞特山爆炸后形成的区域)的野蛮人、伊夫葛洛的武僧、卡吉斯坦的秘术师、安兹提格的狩魔猎人以及托拉杰丛林的巫医。英雄们在新崔斯特姆遇到了莉亚，帮助她解救了陷于流星坑中的赫拉迪姆学者迪卡·凯恩。在解救凯恩后，英雄们继续深入大教堂，击败了骷髅王，在大教堂的最底层的天火坑中英雄们找到了一个失忆的男人。凯恩认为这个失忆的神秘人一定是末日预言的关键角色，为了帮助神秘人恢复记忆，英雄们在坎德拉斯各地寻找神秘人的佩剑碎片。在寻找佩剑碎片的过程中，英雄们遭遇了新的敌人——由玛格妲领导的真神教。在真神教与英雄的争夺中，凯恩、莉亚和神秘人被真神教挟持，虽然莉亚爆发出可怕的潜能消灭了敌人，但是凯恩还是牺牲了，而神秘人则被真神教掳走。为了解救神秘人，英雄们进入昔日李奥瑞克王的监牢，在那里他们击败了屠夫成功解救了神秘人。神秘人在握住佩剑后恢复了失去的往昔记忆，原来神秘人就是义天使泰瑞尔。为了保护圣休亚瑞世界，泰瑞尔背叛了至高天，以凡人的身份从天空坠落，他来此是为了警告人类命运书卷预示的末日危机。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第一幕过场03</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTEzNjUy&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act1-3.png</string>
+					<key>cgdescription</key>
+					<string>在世界之石被毁灭的二十年后，一颗流星划过了圣休亚瑞的天空，世界各地不同的记录都预示着末日将至。各地的英雄们在流星陨落之地——新崔斯特姆集结，他们包括了恐惧之地(亚瑞特山爆炸后形成的区域)的野蛮人、伊夫葛洛的武僧、卡吉斯坦的秘术师、安兹提格的狩魔猎人以及托拉杰丛林的巫医。英雄们在新崔斯特姆遇到了莉亚，帮助她解救了陷于流星坑中的赫拉迪姆学者迪卡·凯恩。在解救凯恩后，英雄们继续深入大教堂，击败了骷髅王，在大教堂的最底层的天火坑中英雄们找到了一个失忆的男人。凯恩认为这个失忆的神秘人一定是末日预言的关键角色，为了帮助神秘人恢复记忆，英雄们在坎德拉斯各地寻找神秘人的佩剑碎片。在寻找佩剑碎片的过程中，英雄们遭遇了新的敌人——由玛格妲领导的真神教。在真神教与英雄的争夺中，凯恩、莉亚和神秘人被真神教挟持，虽然莉亚爆发出可怕的潜能消灭了敌人，但是凯恩还是牺牲了，而神秘人则被真神教掳走。为了解救神秘人，英雄们进入昔日李奥瑞克王的监牢，在那里他们击败了屠夫成功解救了神秘人。神秘人在握住佩剑后恢复了失去的往昔记忆，原来神秘人就是义天使泰瑞尔。为了保护圣休亚瑞世界，泰瑞尔背叛了至高天，以凡人的身份从天空坠落，他来此是为了警告人类命运书卷预示的末日危机。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第一幕过场04</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE0MjU2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act1-4.png</string>
+					<key>cgdescription</key>
+					<string>在世界之石被毁灭的二十年后，一颗流星划过了圣休亚瑞的天空，世界各地不同的记录都预示着末日将至。各地的英雄们在流星陨落之地——新崔斯特姆集结，他们包括了恐惧之地(亚瑞特山爆炸后形成的区域)的野蛮人、伊夫葛洛的武僧、卡吉斯坦的秘术师、安兹提格的狩魔猎人以及托拉杰丛林的巫医。英雄们在新崔斯特姆遇到了莉亚，帮助她解救了陷于流星坑中的赫拉迪姆学者迪卡·凯恩。在解救凯恩后，英雄们继续深入大教堂，击败了骷髅王，在大教堂的最底层的天火坑中英雄们找到了一个失忆的男人。凯恩认为这个失忆的神秘人一定是末日预言的关键角色，为了帮助神秘人恢复记忆，英雄们在坎德拉斯各地寻找神秘人的佩剑碎片。在寻找佩剑碎片的过程中，英雄们遭遇了新的敌人——由玛格妲领导的真神教。在真神教与英雄的争夺中，凯恩、莉亚和神秘人被真神教挟持，虽然莉亚爆发出可怕的潜能消灭了敌人，但是凯恩还是牺牲了，而神秘人则被真神教掳走。为了解救神秘人，英雄们进入昔日李奥瑞克王的监牢，在那里他们击败了屠夫成功解救了神秘人。神秘人在握住佩剑后恢复了失去的往昔记忆，原来神秘人就是义天使泰瑞尔。为了保护圣休亚瑞世界，泰瑞尔背叛了至高天，以凡人的身份从天空坠落，他来此是为了警告人类命运书卷预示的末日危机。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第二幕过场01</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE1OTAw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act2-1.png</string>
+					<key>cgdescription</key>
+					<string>英雄伙同泰瑞尔及莉亚，追踪玛格妲来到了东方卡吉斯坦的新首都卡尔蒂姆。经过商议后大家决定分开行动，英雄们追击真神教，而泰瑞尔和莉亚则负责调查谎言之王彼列的线索。在真神教的总部英雄们终结了玛格妲的生命，并发现帝国卫兵原来是彼列的手下魅影怪幻化而成。另一边，寻找线索的莉亚被帝国卫兵以间谍罪逮捕了。在铁狼卫队队长艾席拉(Asheara，铁狼就是暗黑2第三幕的法师佣兵队，他们因完成寻找转世的哈坎大帝的任务而转正成为了大帝的亲卫队)的帮助下，英雄们救出了莉亚及莉亚的亲生母亲爱德莉雅。原来莉亚就是艾丹和爱德莉亚的亲生女儿，爱德莉雅在卡尔蒂姆将莉亚交给凯恩后就投身到了自己的事业中。爱德莉亚告诉大家，原赫拉迪姆成员佐敦·库勒制造的黑暗灵魂石具有封印魔王的能力。为了消灭残存的魔王彼列和阿兹莫丹，让圣休亚瑞从此太平，英雄们开始了寻找黑暗灵魂石的旅途。利用佐敦·库勒的头颅，莉亚唤醒了佐敦·库勒的灵魂，之后在库勒的指引下，英雄们终于找到了黑暗灵魂石。但佐敦·库勒在获得肉体后却突然出尔反尔攻击了英雄们，在佐敦·库勒被消灭后英雄们获得了黑暗灵魂石。之后，英雄们进入卡尔蒂姆的王宫，揭穿了哈坎二世(Hakan II)的彼列身份(彼列大约在几年前替代了哈坎二世，与没有肉体的三大罪恶之源不一样，彼列并不需要占据人类的身体，所以哈坎二世可能早就死掉了)。在战斗中，狡猾奸诈的彼列设下种种幻像，经过艰辛的战斗，魔王彼列终于被封印于黑暗灵魂石中。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第二幕过场02</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE1MTAw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act2-2.png</string>
+					<key>cgdescription</key>
+					<string>英雄伙同泰瑞尔及莉亚，追踪玛格妲来到了东方卡吉斯坦的新首都卡尔蒂姆。经过商议后大家决定分开行动，英雄们追击真神教，而泰瑞尔和莉亚则负责调查谎言之王彼列的线索。在真神教的总部英雄们终结了玛格妲的生命，并发现帝国卫兵原来是彼列的手下魅影怪幻化而成。另一边，寻找线索的莉亚被帝国卫兵以间谍罪逮捕了。在铁狼卫队队长艾席拉(Asheara，铁狼就是暗黑2第三幕的法师佣兵队，他们因完成寻找转世的哈坎大帝的任务而转正成为了大帝的亲卫队)的帮助下，英雄们救出了莉亚及莉亚的亲生母亲爱德莉雅。原来莉亚就是艾丹和爱德莉亚的亲生女儿，爱德莉雅在卡尔蒂姆将莉亚交给凯恩后就投身到了自己的事业中。爱德莉亚告诉大家，原赫拉迪姆成员佐敦·库勒制造的黑暗灵魂石具有封印魔王的能力。为了消灭残存的魔王彼列和阿兹莫丹，让圣休亚瑞从此太平，英雄们开始了寻找黑暗灵魂石的旅途。利用佐敦·库勒的头颅，莉亚唤醒了佐敦·库勒的灵魂，之后在库勒的指引下，英雄们终于找到了黑暗灵魂石。但佐敦·库勒在获得肉体后却突然出尔反尔攻击了英雄们，在佐敦·库勒被消灭后英雄们获得了黑暗灵魂石。之后，英雄们进入卡尔蒂姆的王宫，揭穿了哈坎二世(Hakan II)的彼列身份(彼列大约在几年前替代了哈坎二世，与没有肉体的三大罪恶之源不一样，彼列并不需要占据人类的身体，所以哈坎二世可能早就死掉了)。在战斗中，狡猾奸诈的彼列设下种种幻像，经过艰辛的战斗，魔王彼列终于被封印于黑暗灵魂石中。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第二幕过场03</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE1NzYw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act2-3.png</string>
+					<key>cgdescription</key>
+					<string>英雄伙同泰瑞尔及莉亚，追踪玛格妲来到了东方卡吉斯坦的新首都卡尔蒂姆。经过商议后大家决定分开行动，英雄们追击真神教，而泰瑞尔和莉亚则负责调查谎言之王彼列的线索。在真神教的总部英雄们终结了玛格妲的生命，并发现帝国卫兵原来是彼列的手下魅影怪幻化而成。另一边，寻找线索的莉亚被帝国卫兵以间谍罪逮捕了。在铁狼卫队队长艾席拉(Asheara，铁狼就是暗黑2第三幕的法师佣兵队，他们因完成寻找转世的哈坎大帝的任务而转正成为了大帝的亲卫队)的帮助下，英雄们救出了莉亚及莉亚的亲生母亲爱德莉雅。原来莉亚就是艾丹和爱德莉亚的亲生女儿，爱德莉雅在卡尔蒂姆将莉亚交给凯恩后就投身到了自己的事业中。爱德莉亚告诉大家，原赫拉迪姆成员佐敦·库勒制造的黑暗灵魂石具有封印魔王的能力。为了消灭残存的魔王彼列和阿兹莫丹，让圣休亚瑞从此太平，英雄们开始了寻找黑暗灵魂石的旅途。利用佐敦·库勒的头颅，莉亚唤醒了佐敦·库勒的灵魂，之后在库勒的指引下，英雄们终于找到了黑暗灵魂石。但佐敦·库勒在获得肉体后却突然出尔反尔攻击了英雄们，在佐敦·库勒被消灭后英雄们获得了黑暗灵魂石。之后，英雄们进入卡尔蒂姆的王宫，揭穿了哈坎二世(Hakan II)的彼列身份(彼列大约在几年前替代了哈坎二世，与没有肉体的三大罪恶之源不一样，彼列并不需要占据人类的身体，所以哈坎二世可能早就死掉了)。在战斗中，狡猾奸诈的彼列设下种种幻像，经过艰辛的战斗，魔王彼列终于被封印于黑暗灵魂石中。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第二幕过场04</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE1OTQ0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act2-4.png</string>
+					<key>cgdescription</key>
+					<string>英雄伙同泰瑞尔及莉亚，追踪玛格妲来到了东方卡吉斯坦的新首都卡尔蒂姆。经过商议后大家决定分开行动，英雄们追击真神教，而泰瑞尔和莉亚则负责调查谎言之王彼列的线索。在真神教的总部英雄们终结了玛格妲的生命，并发现帝国卫兵原来是彼列的手下魅影怪幻化而成。另一边，寻找线索的莉亚被帝国卫兵以间谍罪逮捕了。在铁狼卫队队长艾席拉(Asheara，铁狼就是暗黑2第三幕的法师佣兵队，他们因完成寻找转世的哈坎大帝的任务而转正成为了大帝的亲卫队)的帮助下，英雄们救出了莉亚及莉亚的亲生母亲爱德莉雅。原来莉亚就是艾丹和爱德莉亚的亲生女儿，爱德莉雅在卡尔蒂姆将莉亚交给凯恩后就投身到了自己的事业中。爱德莉亚告诉大家，原赫拉迪姆成员佐敦·库勒制造的黑暗灵魂石具有封印魔王的能力。为了消灭残存的魔王彼列和阿兹莫丹，让圣休亚瑞从此太平，英雄们开始了寻找黑暗灵魂石的旅途。利用佐敦·库勒的头颅，莉亚唤醒了佐敦·库勒的灵魂，之后在库勒的指引下，英雄们终于找到了黑暗灵魂石。但佐敦·库勒在获得肉体后却突然出尔反尔攻击了英雄们，在佐敦·库勒被消灭后英雄们获得了黑暗灵魂石。之后，英雄们进入卡尔蒂姆的王宫，揭穿了哈坎二世(Hakan II)的彼列身份(彼列大约在几年前替代了哈坎二世，与没有肉体的三大罪恶之源不一样，彼列并不需要占据人类的身体，所以哈坎二世可能早就死掉了)。在战斗中，狡猾奸诈的彼列设下种种幻像，经过艰辛的战斗，魔王彼列终于被封印于黑暗灵魂石中。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第三幕过场01</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE3ODA0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act3-1.png</string>
+					<key>cgdescription</key>
+					<string>与彼列喜欢耍诡计的风格不同，阿兹莫丹是一个崇尚纯粹暴力的魔王。为了争夺黑暗灵魂石，罪恶之王阿兹莫丹于亚瑞特巨坑中开启了地狱之门，带领自己的大军杀向了人类世界。英雄们坚守于当年防御野蛮人的戍卫要塞中，与阿兹莫丹展开了决斗，这次决斗无论谁获得胜利，都代表了敌人的永远消亡。英雄们消灭了阿兹莫丹的部下暴食之王冈姆(Ghom)和色欲女王瑟蒂雅(Cydaea，阿兹莫丹的妻子)。在阿兹莫丹的王座上，罪恶之王也终被封印。七大魔王此刻都被封印于黑暗灵魂石，只要毁灭黑暗灵魂石，七大魔王将永世不得翻身。爱德莉雅在胜利到来的最后一刻背叛了世界，她将黑暗灵魂石中封印的七大魔王之魂灌入了莉亚的体内。创世以来最大的邪恶在莉亚的体内复生，七魔此时合为一体。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第三幕过场02</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE2OTMy&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act3-2.png</string>
+					<key>cgdescription</key>
+					<string>与彼列喜欢耍诡计的风格不同，阿兹莫丹是一个崇尚纯粹暴力的魔王。为了争夺黑暗灵魂石，罪恶之王阿兹莫丹于亚瑞特巨坑中开启了地狱之门，带领自己的大军杀向了人类世界。英雄们坚守于当年防御野蛮人的戍卫要塞中，与阿兹莫丹展开了决斗，这次决斗无论谁获得胜利，都代表了敌人的永远消亡。英雄们消灭了阿兹莫丹的部下暴食之王冈姆(Ghom)和色欲女王瑟蒂雅(Cydaea，阿兹莫丹的妻子)。在阿兹莫丹的王座上，罪恶之王也终被封印。七大魔王此刻都被封印于黑暗灵魂石，只要毁灭黑暗灵魂石，七大魔王将永世不得翻身。爱德莉雅在胜利到来的最后一刻背叛了世界，她将黑暗灵魂石中封印的七大魔王之魂灌入了莉亚的体内。创世以来最大的邪恶在莉亚的体内复生，七魔此时合为一体。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第三幕过场03</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE3MDQ0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act3-3.png</string>
+					<key>cgdescription</key>
+					<string>与彼列喜欢耍诡计的风格不同，阿兹莫丹是一个崇尚纯粹暴力的魔王。为了争夺黑暗灵魂石，罪恶之王阿兹莫丹于亚瑞特巨坑中开启了地狱之门，带领自己的大军杀向了人类世界。英雄们坚守于当年防御野蛮人的戍卫要塞中，与阿兹莫丹展开了决斗，这次决斗无论谁获得胜利，都代表了敌人的永远消亡。英雄们消灭了阿兹莫丹的部下暴食之王冈姆(Ghom)和色欲女王瑟蒂雅(Cydaea，阿兹莫丹的妻子)。在阿兹莫丹的王座上，罪恶之王也终被封印。七大魔王此刻都被封印于黑暗灵魂石，只要毁灭黑暗灵魂石，七大魔王将永世不得翻身。爱德莉雅在胜利到来的最后一刻背叛了世界，她将黑暗灵魂石中封印的七大魔王之魂灌入了莉亚的体内。创世以来最大的邪恶在莉亚的体内复生，七魔此时合为一体。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第四幕过场01</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE5MjM2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act4-1.png</string>
+					<key>cgdescription</key>
+					<string>在至高天中，完全觉醒的涅法雷姆英雄们打败了绝望之王拉卡诺斯(Rakanoth)和天使背叛者依卒尔后，到达了至高天的最高处。七魔合一迪亚布罗的目标毁灭是至高天的核心水晶拱门(由阿努的脊椎变成，天使由此诞生)，善之化身阿努与恶之化身塔萨梅隆的战争经历了千万个世纪后再度重演。在混战之后，涅法雷姆英雄们消灭了迪亚布罗，罪恶之源的尸骸在坠落中化做片片灰烬。至高天在水晶拱门的和声中恢复了圣洁，而义天使泰瑞尔选择以凡人的身份重归天堂，“既然正义已获得伸张，我将化身为智慧，以告慰那些为此牺牲的人们。从今而后，天使与人类将共同努力，一起迎接光明璀璨的未来。”</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第四幕过场02</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE4NTc2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act4-2.png</string>
+					<key>cgdescription</key>
+					<string>在至高天中，完全觉醒的涅法雷姆英雄们打败了绝望之王拉卡诺斯(Rakanoth)和天使背叛者依卒尔后，到达了至高天的最高处。七魔合一迪亚布罗的目标毁灭是至高天的核心水晶拱门(由阿努的脊椎变成，天使由此诞生)，善之化身阿努与恶之化身塔萨梅隆的战争经历了千万个世纪后再度重演。在混战之后，涅法雷姆英雄们消灭了迪亚布罗，罪恶之源的尸骸在坠落中化做片片灰烬。至高天在水晶拱门的和声中恢复了圣洁，而义天使泰瑞尔选择以凡人的身份重归天堂，“既然正义已获得伸张，我将化身为智慧，以告慰那些为此牺牲的人们。从今而后，天使与人类将共同努力，一起迎接光明璀璨的未来。”</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第四幕过场03</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNDA2NTE5MTA4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act4-3.png</string>
+					<key>cgdescription</key>
+					<string>在至高天中，完全觉醒的涅法雷姆英雄们打败了绝望之王拉卡诺斯(Rakanoth)和天使背叛者依卒尔后，到达了至高天的最高处。七魔合一迪亚布罗的目标毁灭是至高天的核心水晶拱门(由阿努的脊椎变成，天使由此诞生)，善之化身阿努与恶之化身塔萨梅隆的战争经历了千万个世纪后再度重演。在混战之后，涅法雷姆英雄们消灭了迪亚布罗，罪恶之源的尸骸在坠落中化做片片灰烬。至高天在水晶拱门的和声中恢复了圣洁，而义天使泰瑞尔选择以凡人的身份重归天堂，“既然正义已获得伸张，我将化身为智慧，以告慰那些为此牺牲的人们。从今而后，天使与人类将共同努力，一起迎接光明璀璨的未来。”</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第五幕过场01</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XOTE3MzgzNDU2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act5-1.png</string>
+					<key>cgdescription</key>
+					<string>自从奈非天打败大魔神的那一刻起，马萨伊尔就决定要消灭所有拥有恶魔血统的存在——包括人类——从而终结永恒之战。他袭击了新的赫拉迪姆，并夺走了黑暗灵魂石。其麾下由可怕的天使与亡者所组成的夺魂者大军，开始屠戮威斯特玛一带的民众，不断地收集人类的灵魂。每收集到一副灵魂，马萨伊尔的力量就增加一份。
+马萨伊尔将黑暗灵魂石带往了另一个位面：永恒之战的战场前线——混沌要塞。马萨伊尔就是要在这里对灵魂石进行重塑，从而吞噬庇护之地世界中的所有恶魔精华。
+在一位信仰萨卡拉姆教的圣教军的帮助下，奈非天与马萨伊尔展开了决斗。在战斗中，马萨伊尔打碎了黑暗灵魂石，吞噬了从中逃逸而出的大魔神的灵魂，并运用地狱与死亡的力量横扫战场。经过一番惊心动魄的苦战之后，奈非天身上的联合之力最终战胜了死亡的化身。马萨伊尔在一场能量爆炸中灰飞烟灭，释放出了被其吞噬的所有灵魂——其中也包括迪亚波罗。</string>
 				</dict>
 				<dict>
 					<key>cgname</key>
 					<string>暗黑破坏神3第五幕过场02</string>
 					<key>cglink</key>
 					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XOTE3MzgzNDYw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>act5-2.png</string>
+					<key>cgdescription</key>
+					<string>自从奈非天打败大魔神的那一刻起，马萨伊尔就决定要消灭所有拥有恶魔血统的存在——包括人类——从而终结永恒之战。他袭击了新的赫拉迪姆，并夺走了黑暗灵魂石。其麾下由可怕的天使与亡者所组成的夺魂者大军，开始屠戮威斯特玛一带的民众，不断地收集人类的灵魂。每收集到一副灵魂，马萨伊尔的力量就增加一份。
+马萨伊尔将黑暗灵魂石带往了另一个位面：永恒之战的战场前线——混沌要塞。马萨伊尔就是要在这里对灵魂石进行重塑，从而吞噬庇护之地世界中的所有恶魔精华。
+在一位信仰萨卡拉姆教的圣教军的帮助下，奈非天与马萨伊尔展开了决斗。在战斗中，马萨伊尔打碎了黑暗灵魂石，吞噬了从中逃逸而出的大魔神的灵魂，并运用地狱与死亡的力量横扫战场。经过一番惊心动魄的苦战之后，奈非天身上的联合之力最终战胜了死亡的化身。马萨伊尔在一场能量爆炸中灰飞烟灭，释放出了被其吞噬的所有灵魂——其中也包括迪亚波罗。</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>暗黑破坏神2</string>
+			<key>cgs</key>
+			<array>
+				<dict>
+					<key>cgname</key>
+					<string>修女的悲怮</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTY4MTg0&quot; frameborder=0 allowfullscreen autoplay=&quot;autoplay&quot;&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>d2cg-1.png</string>
+					<key>cgdescription</key>
+					<string>烈焰地狱中四位次级魔王中的痛苦之王督瑞尔和悲恸女王安达莉尔在暗黑流浪者行动后再度与三大罪恶之源结盟(老资料中，督瑞尔和安达莉尔是莉莉丝生的孪生子，而莉莉丝是墨菲斯托的女儿，所以墨菲斯托是他们的外公，不过新资料里却有意规避，不知道暴雪是不是打算翻脸)。在黑暗流浪者穿越了东部山脊的浪人修道会后，安达莉尔为黑暗流浪者镇守了这里。安达莉莉尔腐化了修道院中的盲女姐妹会为自己服务，其中甚至包括了昔日刺杀迪亚布罗的英雄血鸟。</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>沙漠的旅程</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTcwMTM2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>d2cg-2.png</string>
+					<key>cgdescription</key>
+					<string>黑暗流浪者与旅途中遇见的仆从玛瑞斯(Marius)东行到达亚拉挪奇大沙漠，深入封印巴尔的塔·拉夏古墓。在墓穴中黑暗流浪者遇到了及时赶来阻止自己的义天使泰瑞尔，他们缠斗到一起，难分胜负。这个时候，玛瑞斯被巴尔制造的幻象瞒骗，拔出了塔·拉夏身体上的灵魂石解放了巴尔。占据塔·拉夏肉体的巴尔和占据艾丹肉体的迪亚布罗联手夹攻泰瑞尔，泰瑞尔确认自己没有胜算后请求马瑞斯带着巴尔的灵魂石逃跑。另一方面，迪卡·凯恩与英雄们击败了安达莉尔后追赶黑暗流浪者到达了亚拉挪奇大沙漠的鲁·高因。英雄们根据古代赫拉迪姆组织留下的线索进入了神秘庇护所，击败了被赫拉森占据灵魂的法师英雄。根据赫拉森的笔记英雄们找到了封印巴尔的古墓，在击败镇守于此的痛苦之王督瑞尔后，他们解救了被囚禁的泰瑞尔。</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>墨菲斯托丛林</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTcxNTYw&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>d2cg-3.png</string>
+					<key>cgdescription</key>
+					<string>英雄们继续追赶黑暗流浪者到达了卡吉斯坦被恶魔占据的首都库拉斯特。在库拉斯特的特拉文克神庙中，英雄们消灭了憎恨之王墨菲斯托和他的萨卡兰姆教议会仆从，憎恨之王再度被封印于灵魂石中。但迪亚布罗的目标已经达成，在他兄长墨菲斯托的帮助下，他已经成功返回地狱重整大军。</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>进入地狱</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTcyOTU2&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>d2cg-4.png</string>
+					<key>cgdescription</key>
+					<string>在义天使泰瑞尔的请求下，英雄们穿越地狱之门到达了烈焰地狱边缘的群魔要塞。英雄们在烈焰地狱中击败了天使叛变者依翠尔，之后又攻占了毁灭之王的地狱熔炉，借助地狱熔炉英雄们毁灭了墨菲斯托的灵魂石(这个毁灭只是将恶魔更深度的封印，不是真正的杀死)。阶段性的胜利后英雄们随即开始寻找最终的敌人——迪亚布罗。这时的迪亚布罗已经获得了更强健的肉体(相对而言)和灵魂石的能量，变得更强大，但我们的英雄最终还是完成了他们的任务，将恐惧之王迪亚布罗三度封印，之后在地狱熔炉上敲碎了他的灵魂石。</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>恐怖的终结</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTc0NTI4&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>d2cg-5.png</string>
+					<key>cgdescription</key>
+					<string>在义天使泰瑞尔的请求下，英雄们穿越地狱之门到达了烈焰地狱边缘的群魔要塞。英雄们在烈焰地狱中击败了天使叛变者依翠尔，之后又攻占了毁灭之王的地狱熔炉，借助地狱熔炉英雄们毁灭了墨菲斯托的灵魂石(这个毁灭只是将恶魔更深度的封印，不是真正的杀死)。阶段性的胜利后英雄们随即开始寻找最终的敌人——迪亚布罗。这时的迪亚布罗已经获得了更强健的肉体(相对而言)和灵魂石的能量，变得更强大，但我们的英雄最终还是完成了他们的任务，将恐惧之王迪亚布罗三度封印，之后在地狱熔炉上敲碎了他的灵魂石。</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>找寻巴尔</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTc4Njg0&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>d2cg-6.png</string>
+					<key>cgdescription</key>
+					<string>但实际上，这一切切的行动不过是三大罪恶之源的诱饵，他们真正目标其实是亚瑞特圣山中的世界之石。在英雄们紧锣密鼓的追赶黑暗流浪者前往库拉斯特时，巴尔已经与迪亚布罗分开行动，他首先找到了马瑞斯，用泰瑞尔的幻像骗来了灵魂石。接着巴尔集结自己的军队，攻破戍卫要塞，到达了亚瑞特山。杀死迪亚布罗的英雄们集结了新的伙伴赶到亚瑞特山，新伙伴包括了索格伦森林的德鲁伊及来自卡吉斯坦的刺客。在亚瑞特山，野蛮人长者们牺牲自己的生命阻挡了巴尔大军的前进，但仅存的长老尼拉塞克(Nihlathak)背叛了他们，将野蛮人的圣物送给了巴尔。巴尔利用野蛮人的圣物避开了野蛮人古代英雄塔里克(Talic)、科力克(Korlic)和马道克(Madawc)的看守进入了圣山的内部。英雄们在击败野蛮人古代英雄后，深入亚瑞特山，在世界之石前，英雄们封印了巴尔。但泰瑞尔告诉英雄，世界之石已经被玷污，必须被毁灭，不然整个圣休亚瑞世界都将被腐化。泰瑞尔将自己的正义之剑全力扔出击碎了世界之石，随之产生的爆炸毁灭了亚瑞特山(在官方的访谈录中提到七位英雄全部已死，我对此表示怀疑)。</string>
+				</dict>
+				<dict>
+					<key>cgname</key>
+					<string>毁灭的末日</string>
+					<key>cglink</key>
+					<string>&lt;iframe height=%ld width=%ld src=&quot;http://player.youku.com/embed/XNTcyNTc5NTMy&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</string>
+					<key>cgimage</key>
+					<string>d2cg-7.png</string>
+					<key>cgdescription</key>
+					<string>但实际上，这一切切的行动不过是三大罪恶之源的诱饵，他们真正目标其实是亚瑞特圣山中的世界之石。在英雄们紧锣密鼓的追赶黑暗流浪者前往库拉斯特时，巴尔已经与迪亚布罗分开行动，他首先找到了马瑞斯，用泰瑞尔的幻像骗来了灵魂石。接着巴尔集结自己的军队，攻破戍卫要塞，到达了亚瑞特山。杀死迪亚布罗的英雄们集结了新的伙伴赶到亚瑞特山，新伙伴包括了索格伦森林的德鲁伊及来自卡吉斯坦的刺客。在亚瑞特山，野蛮人长者们牺牲自己的生命阻挡了巴尔大军的前进，但仅存的长老尼拉塞克(Nihlathak)背叛了他们，将野蛮人的圣物送给了巴尔。巴尔利用野蛮人的圣物避开了野蛮人古代英雄塔里克(Talic)、科力克(Korlic)和马道克(Madawc)的看守进入了圣山的内部。英雄们在击败野蛮人古代英雄后，深入亚瑞特山，在世界之石前，英雄们封印了巴尔。但泰瑞尔告诉英雄，世界之石已经被玷污，必须被毁灭，不然整个圣休亚瑞世界都将被腐化。泰瑞尔将自己的正义之剑全力扔出击碎了世界之石，随之产生的爆炸毁灭了亚瑞特山(在官方的访谈录中提到七位英雄全部已死，我对此表示怀疑)。</string>
 				</dict>
 			</array>
 		</dict>

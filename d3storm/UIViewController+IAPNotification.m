@@ -118,6 +118,7 @@
     if ([[StoreObserver sharedInstance] isPurchasedProduct:kIAPVip]) {
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kUserDefaultIsVip];
         [[NSUserDefaults standardUserDefaults] synchronize];
+        [[NSNotificationCenter defaultCenter] postNotificationName:kNotificationVIPChanged object:nil];
     }
     
     [MBProgressHUD hideHUDForView:self.view animated:YES];

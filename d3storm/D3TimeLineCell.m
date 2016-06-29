@@ -31,6 +31,7 @@
     
     self.timeLabel.text = timeLineData.timeString;
     self.contentLabel.text = timeLineData.contentString;
+    self.contentImageView.image = [UIImage imageNamed:timeLineData.imageString];
 }
 
 

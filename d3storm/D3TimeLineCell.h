@@ -13,6 +13,7 @@
 
 @property(nonatomic, weak) IBOutlet UILabel *timeLabel;
 @property(nonatomic, weak) IBOutlet UILabel *contentLabel;
+@property(nonatomic, weak) IBOutlet UIImageView *contentImageView;
 
 @property (nonatomic, strong) D3TimeLineDataModel *timeLineData;
 

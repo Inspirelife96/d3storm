@@ -19,7 +19,7 @@
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:chapterListPath];
     _chapterList = [dict objectForKey:@"chapterList"];
     
-    _totalChapter = _chapterList.count;
+    _totalChapter = _chapterList.count - 1;
 }
 
 - (BOOL)haveNextChapter
@@ -42,6 +42,8 @@
     TReaderChapter *readerChapter = [[TReaderChapter alloc]init];
     readerChapter.chapterIndex = chapter;
     _curChpaterIndex = chapter;
+    NSLog(@"_curChpaterIndex = %ld", _curChpaterIndex);
+    
     NSError *error = nil;
     NSString *chapter_num = [NSString stringWithFormat:@"%@%03d",_bookName, (int)chapter];
     NSString *path1 = [[NSBundle mainBundle] pathForResource:chapter_num ofType:@"txt"];

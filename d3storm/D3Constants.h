@@ -13,6 +13,8 @@
 
 #define IsVip           ([[NSUserDefaults standardUserDefaults] boolForKey:kUserDefaultIsVip])
 #define IsAdRemoved     ([[NSUserDefaults standardUserDefaults] boolForKey:kUserDefaultIsAdRemoved])
+#define IsSharedToday   ([[NSUserDefaults standardUserDefaults] boolForKey:kUserDefaultIsSharedToday])
+
 
 #define GetImage(Name, Ext) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:(Name) ofType:(Ext)]]
 
@@ -67,15 +69,18 @@ extern NSString *const kQQApplicationSecret;
 extern NSString *const kUserDefaultFirstLaunch;
 extern NSString *const kUserDefaultIsVip;
 extern NSString *const kUserDefaultIsAdRemoved;
-extern NSString *const kUserDefaultDailyNotificationStatus;
-extern NSString *const kUserDefaultDailyNotificationTime;
+extern NSString *const kUserDefaultIsSharedToday;
+extern NSString *const kUserDefaultCoin;
+extern NSString *const kUserDefaultLastLoginDate;
+
 extern NSString *const kUserDefaultPromotionHealthyProgrammer;
 extern NSString *const kUserDefaultPromotionLearnPaint;
 extern NSString *const kUserDefaultPromotionWowRadio;
-
+extern NSString *const kUserDefaultPromotioniOSSkillTree;
 
 #pragma mark - Notification
 extern NSString *const kNotificationVIPChanged;
+extern NSString *const kNotificationCoinChanged;
 
 #pragma mark - Admob
 extern NSString *const kAdmobBannerID;

@@ -76,6 +76,10 @@
         [tempArray addObject:[NSNumber numberWithInteger:1086303564]];
     }
     
+    if (![userDefault boolForKey:kUserDefaultPromotioniOSSkillTree]) {
+        [tempArray addObject:[NSNumber numberWithInteger:1099674518]];
+    }
+    
     if (tempArray.count == 0) {
         return nil;
     } else {

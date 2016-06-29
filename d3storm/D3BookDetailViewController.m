@@ -7,10 +7,16 @@
 //
 
 #import "D3BookDetailViewController.h"
-#import "TReaderViewController.h"
-#import "TReaderBook.h"
 #import "UIImage+ImageEffects.h"
 #import "UILabel+StringFrame.h"
+#import "D3CartoonViewController.h"
+#import "UIViewController+AppPromotion.h"
+#import "AdManager.h"
+
+#import "LSYReadViewController.h"
+#import "LSYReadPageViewController.h"
+#import "LSYReadUtilites.h"
+#import "LSYReadModel.h"
 
 @interface D3BookDetailViewController ()
 
@@ -25,13 +31,17 @@
     
     self.navigationItem.title = [_book objectForKey:@"bookname"];
     
+    _bookDetailTableView.delegate = self;
+    _bookDetailTableView.dataSource = self;
+    _bookDetailTableView.tableFooterView = [[UIView alloc] init];
+    
     _bookDescriptionLabel = [[UILabel alloc] init];
 }
 
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     if (self.tabBarController) {
-        self.tabBarController.tabBar.hidden = NO;
+        self.tabBarController.tabBar.hidden = YES;
     }
     
     if (self.navigationController) {
@@ -41,6 +51,34 @@
 
 - (void) viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
+    
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:kUserDefaultIsAdRemoved]) {
+        return;
+    } else {
+        NSInteger randomValue = arc4random()%10;
+        NSNumber *appId = [self getPromationAppInfo];
+        
+        if (randomValue == 9) {
+            if (appId) {
+                [self promotionApp:appId];
+            } else {
+                if ([[AdManager sharedInstance] isInterstitialReady]) {
+                    [[AdManager sharedInstance] presentInterstitialAdFromRootViewController:self.navigationController];
+                } else {
+                    [[AdManager sharedInstance] createInterstitial];
+                }
+            }
+        } else if (randomValue == 8) {
+            if ([[AdManager sharedInstance] isInterstitialReady]) {
+                [[AdManager sharedInstance] presentInterstitialAdFromRootViewController:self.navigationController];
+            } else {
+                [[AdManager sharedInstance] createInterstitial];
+                if (appId) {
+                    [self promotionApp:appId];
+                }
+            }
+        }
+    }
 }
 
 - (void) viewWillLayoutSubviews {
@@ -85,9 +123,17 @@
         CGFloat btWidth = (self.view.frame.size.width - 20.0f);
         CGFloat btHeight = 30.0f;
         UIButton *btReadBook = [[UIButton alloc] initWithFrame:CGRectMake(10.0f, 4.0f, btWidth, btHeight)];
-        [btReadBook setTitle:@"开始阅读" forState:UIControlStateNormal];
+        NSInteger bookID = [[_book objectForKey:@"bookid"] integerValue];
         [btReadBook addTarget:self action:@selector(btReadBookClicked:) forControlEvents:UIControlEventTouchUpInside];
+        btReadBook.titleLabel.font = GetFontAvenirNext(14.0f);
         [btReadBook setBackgroundImage:[UIImage imageNamed:@"button_large_blue_bg.png"] forState:UIControlStateNormal];
+        if (bookID > 100) {
+            [btReadBook setTitle:@"开始阅读" forState:UIControlStateNormal];
+            [btReadBook setEnabled:YES];
+        } else {
+            [btReadBook setTitle:@"暂无" forState:UIControlStateNormal];
+            [btReadBook setEnabled:NO];
+        }
         
         [cell.contentView addSubview:btReadBook];
     }
@@ -97,14 +143,19 @@
 
 - (void) btReadBookClicked:(UIButton*)sender {
 
-    TReaderViewController *readerVC = [[TReaderViewController alloc]init];
-    TReaderBook *book = [[TReaderBook alloc] init];
-    book.bookId = [[_book objectForKey:@"bookid"] integerValue];
-    book.bookName = [_book objectForKey:@"bookcode"];
-    [book initChapterList];
-    readerVC.style = TReaderTransitionStyleScroll;
-    readerVC.readerBook = book;
-    [self.navigationController pushViewController:readerVC animated:YES];
+    if ([[_book objectForKey:@"bookid"] integerValue] >= 5000) {
+        D3CartoonViewController *cartoonVC = [self.storyboard instantiateViewControllerWithIdentifier:@"D3CartoonViewController"];
+        NSDictionary *cartoonDict = [D3SharedResource sharedInstance].cartoonDict;
+        NSString *cartoonNameString = [_book objectForKey:@"bookname"];
+        cartoonVC.cartoonArray = [cartoonDict objectForKey:cartoonNameString];
+        [self.navigationController pushViewController:cartoonVC animated:YES];
+    } else {
+        LSYReadPageViewController *pageView = [[LSYReadPageViewController alloc] init];
+        NSURL *fileURL = [[NSBundle mainBundle] URLForResource:[_book objectForKey:@"bookcode"] withExtension:@"txt"];
+        pageView.resourceURL = fileURL;    //文件位置
+        pageView.model = [LSYReadModel getLocalModelWithURL:fileURL];  //阅读模型
+        [self presentViewController:pageView animated:YES completion:nil];
+    }
 }
 
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {

@@ -12,8 +12,10 @@
 
 @property(copy, nonatomic) NSString *timeString;
 @property(copy, nonatomic) NSString *contentString;
+@property(copy, nonatomic) NSString *imageString;
 
-- (instancetype)initWithString:(NSString *)timeLineString;
-+ (instancetype)initWithString:(NSString *)timeLineString;
+
+- (instancetype)initWithDictionary:(NSDictionary *)timeLineDict;
++ (instancetype)initWithDictionary:(NSDictionary *)timeLineDict;
 
 @end

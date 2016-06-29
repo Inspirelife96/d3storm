@@ -7,6 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import <AVOSCloud/AVOSCloud.h>
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+#import "WXApi.h"
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <StoreKit/StoreKit.h>
+#import "StoreObserver.h"
+#import "StoreManager.h"
+#import "AdManager.h"
+#import "iRate.h"
 
 @interface AppDelegate ()
 
@@ -14,14 +25,97 @@
 
 @implementation AppDelegate
 
++ (void)initialize {
+    //configure iRate
+    [iRate sharedInstance].daysUntilPrompt = 5;
+    [iRate sharedInstance].usesUntilPrompt = 15;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
     [Chameleon customizeNavigationBarWithPrimaryColor:FlatBlackDark withContentStyle:UIContentStyleContrast];
+    [Chameleon customizeTabBarWithBarTintColor:FlatBlackDark andTintColor:FlatOrange];
     
-    [Chameleon customizeTabBarWithBarTintColor:FlatBlackDark andTintColor:FlatBlackDark];
+    UIPageControl *pageControl = [UIPageControl appearance];
+    pageControl.pageIndicatorTintColor = FlatWhite;
+    pageControl.currentPageIndicatorTintColor = FlatBlueDark;
+    pageControl.backgroundColor = FlatBlackDark;
     
+    
+    // init IAP products
+    NSArray *productIdentifiers = [NSArray arrayWithObjects:
+                                   kIAPVip,
+                                   kIAPAdRemoved,
+                                   nil];
+    [[StoreManager sharedInstance] fetchProductInformationForIds:productIdentifiers];
+    
+    // add payment observer
+    [[SKPaymentQueue defaultQueue] addTransactionObserver:[StoreObserver sharedInstance]];
+    
+    // init rewarded ad and institial ad
+    [AdManager sharedInstance];
+    
+    // init leancloud
+    [AVOSCloud setApplicationId:kLeanCloudApplicationId
+                      clientKey:kLeanClientKey];
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    // init sharesdk ()
+    [ShareSDK registerApp:kShareSDKApplicationId
+          activePlatforms:@[
+                            @(SSDKPlatformTypeMail),
+                            @(SSDKPlatformTypeSMS),
+                            @(SSDKPlatformTypeWechat),
+                            @(SSDKPlatformTypeQQ),
+                            ]
+                 onImport:^(SSDKPlatformType platformType) {
+                     switch (platformType)
+                     {
+                         case SSDKPlatformTypeWechat:
+                             [ShareSDKConnector connectWeChat:[WXApi class] delegate:self];
+                             break;
+                         case SSDKPlatformTypeQQ:
+                             [ShareSDKConnector connectQQ:[QQApiInterface class] tencentOAuthClass:[TencentOAuth class]];
+                             break;
+                         default:
+                             break;
+                     }
+                     
+                 }
+          onConfiguration:^(SSDKPlatformType platformType, NSMutableDictionary *appInfo) {
+              switch (platformType)
+              {
+                  case SSDKPlatformTypeWechat:
+                      [appInfo SSDKSetupWeChatByAppId:kWXApplicationId
+                                            appSecret:kWXApplicationSecret];
+                      break;
+                  case SSDKPlatformTypeQQ:
+                      [appInfo SSDKSetupQQByAppId:kQQApplicationId
+                                           appKey:kQQApplicationSecret
+                                         authType:SSDKAuthTypeBoth];
+                  default:
+                      break;
+              }
+          }];
+    
+    
+    NSUserDefaults* userDefault = [NSUserDefaults standardUserDefaults];
+    if (![userDefault boolForKey:kUserDefaultFirstLaunch]) {
+        
+        [userDefault setBool:YES forKey:kUserDefaultFirstLaunch];
+        [userDefault setBool:NO  forKey:kUserDefaultIsVip];
+        [userDefault setBool:NO  forKey:kUserDefaultIsAdRemoved];
+        
+        [userDefault setBool:NO  forKey:kUserDefaultPromotionHealthyProgrammer];
+        [userDefault setBool:NO  forKey:kUserDefaultPromotionLearnPaint];
+        [userDefault setBool:NO  forKey:kUserDefaultPromotionWowRadio];
+        [userDefault setBool:NO  forKey:kUserDefaultPromotioniOSSkillTree];
+        
+        [userDefault setInteger:0 forKey:kUserDefaultCoin];
+        
+        [userDefault synchronize];
+    }
     
     return YES;
 }
@@ -42,10 +136,36 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
+    NSDate *lastLoginDate = [userDefault objectForKey:kUserDefaultLastLoginDate];
+    
+    if (lastLoginDate) {
+        NSDate *dateToday = [NSDate date];
+        
+        CGFloat timezoneFix = [NSTimeZone localTimeZone].secondsFromGMT;
+        if ((int)(([lastLoginDate timeIntervalSince1970] + timezoneFix)/(24*3600)) ==
+            (int)(([dateToday timeIntervalSince1970] + timezoneFix)/(24*3600))) {
+            // Do Nothing;
+        } else {
+            NSInteger coin = [userDefault integerForKey:kUserDefaultCoin];
+            [userDefault setObject:dateToday forKey:kUserDefaultLastLoginDate];
+            [userDefault setInteger:(coin + 3) forKey:kUserDefaultCoin];
+            [userDefault setBool:NO forKey:kUserDefaultIsSharedToday];
+            [userDefault synchronize];
+        }
+    } else {
+        [userDefault setObject:[NSDate date] forKey:kUserDefaultLastLoginDate];
+        [userDefault setInteger:3 forKey:kUserDefaultCoin];
+        [userDefault setBool:NO forKey:kUserDefaultIsSharedToday];
+        [userDefault synchronize];
+    }
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    
+    [[SKPaymentQueue defaultQueue] removeTransactionObserver:[StoreObserver sharedInstance]];
 }
 
 @end
