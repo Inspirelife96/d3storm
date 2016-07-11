@@ -49,6 +49,10 @@
         [tempArray addObject:[NSNumber numberWithInteger:1099674518]];
     }
     
+    if (![userDefault boolForKey:kUserDefaultPromotionWowRadio]) {
+        [tempArray addObject:[NSNumber numberWithInteger:1125770301]];
+    }
+    
     if (tempArray.count == 0) {
         return nil;
     } else {
@@ -70,6 +74,9 @@
             break;
         case 1099674518:
             [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kUserDefaultPromotioniOSSkillTree];
+            break;
+        case 1125770301:
+            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kUserDefaultPromotionWowRadio];
             break;
         default:
             break;

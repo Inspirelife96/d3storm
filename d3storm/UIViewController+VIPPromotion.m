@@ -31,7 +31,7 @@
                                       style:UIAlertActionStyleDefault
                                       handler:^(UIAlertAction *action)
                                       {
-                                          [self shareMessage:@"我正在用［小说，CG合集 For 暗黑破坏神］看暗黑破坏神的故事，快来和我一起体验史诗故事吧！下载地址：http://itunes.apple.com/app/id1125770301" onView:sender];
+                                          [self shareMessage:@"我正在用［小说，CG合集 For 星际争霸］看星际争霸的故事，快来和我一起体验史诗故事吧！下载地址：http://itunes.apple.com/app/id1130826514" onView:sender];
                                       }];
         [promotionAC addAction:shareAction];
     }
@@ -81,7 +81,7 @@
                                   style:UIAlertActionStyleDefault
                                   handler:^(UIAlertAction *action)
                                   {
-                                      [self shareMessage:@"我正在用［小说，CG合集 For 暗黑破坏神］看暗黑破坏神的故事，快来和我一起体验史诗故事吧！下载地址：http://itunes.apple.com/app/id1125770301" onView:sender];
+                                      [self shareMessage:@"我正在用［小说，CG合集 For 星际争霸］看星际争霸的故事，快来和我一起体验史诗故事吧！下载地址：http://itunes.apple.com/app/id1130826514" onView:sender];
                                   }];
     
     UIAlertAction *cancelAction = [UIAlertAction

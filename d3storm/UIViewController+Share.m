@@ -28,7 +28,7 @@
     [shareParams SSDKSetupShareParamsByText:message
                                      images:imageArray
                                         url:[NSURL URLWithString:kAppURL]
-                                      title:@"小说，CG合集 For 暗黑破坏神"
+                                      title:@"小说，CG合集 For 星际争霸"
                                        type:SSDKContentTypeAuto];
     
     [shareParams SSDKSetupWeChatParamsByText:@"" title:message url:[NSURL URLWithString:kAppURL] thumbImage:[UIImage imageNamed:@"Icon-share.png"] image:[UIImage imageNamed:@"Icon-share.png"] musicFileURL:nil extInfo:nil fileData:nil emoticonData:nil type:SSDKContentTypeAuto forPlatformSubType:SSDKPlatformSubTypeWechatTimeline];
