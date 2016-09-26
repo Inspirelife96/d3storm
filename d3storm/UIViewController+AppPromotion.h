@@ -10,8 +10,8 @@
 
 @interface UIViewController (AppPromotion)
 
-- (void) promotionApp:(NSNumber *) appId;
+- (void)promotion;
+- (void)promotionApp:(NSNumber *)appId;
 - (NSNumber *)getPromationAppInfo;
-- (void)updatePromationAppStatus: (NSInteger) appId;
 
 @end

@@ -8,16 +8,13 @@
 
 #import "D3Constants.h"
 
-
 #pragma mark - app id
 NSString *const kAppReviewURL           = @"itms-apps://itunes.apple.com/app/id1125770301";
 NSString *const kAppURL                 = @"http://itunes.apple.com/app/id1125770301";
 
 
 #pragma mark - privacy url
-// todo
-NSString *const kPrivacyURL             = @"http://blog.sina.com.cn/s/blog_d07810570102vyo4.html";
-
+NSString *const kPrivacyURL             = @"http://www.jianshu.com/p/1a87dcdfb795";
 
 #pragma mark - IAP
 NSString *const kIAPAdRemoved           = @"com.inspirelife.d3storm.adremoved";

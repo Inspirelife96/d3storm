@@ -127,13 +127,13 @@
 		258967991D1BD31200CA2E67 /* CoinManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 258967981D1BD31200CA2E67 /* CoinManager.m */; };
 		2589679F1D1BD45300CA2E67 /* AdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2589679D1D1BD45300CA2E67 /* AdManager.m */; };
 		258967A21D1BFD0500CA2E67 /* ILUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 258967A11D1BFD0500CA2E67 /* ILUtilities.m */; };
-		258967A51D1BFDCF00CA2E67 /* UIViewController+AppPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 258967A41D1BFDCF00CA2E67 /* UIViewController+AppPromotion.m */; };
 		258967AB1D1C02F200CA2E67 /* UIViewController+BannerAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 258967AA1D1C02F200CA2E67 /* UIViewController+BannerAd.m */; };
 		2589684D1D1D14EE00CA2E67 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2589684C1D1D14EE00CA2E67 /* libz.tbd */; };
 		258968F11D1D221200CA2E67 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 258968F01D1D221200CA2E67 /* libxml2.tbd */; };
 		2590F4F51D1D4FB300499AAB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F4F41D1D4FB300499AAB /* Reachability.m */; };
 		2590F4FF1D1D5F1500499AAB /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F4FD1D1D5F1500499AAB /* iRate.m */; };
 		2590F5011D1D5F6700499AAB /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2590F5001D1D5F6700499AAB /* iRate.bundle */; };
+		25E8389A1D991E27000B1246 /* UIViewController+AppPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E838991D991E27000B1246 /* UIViewController+AppPromotion.m */; };
 		25FD5EAB1D19F5470081553E /* D3CGPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD5EAA1D19F5470081553E /* D3CGPlayerViewController.m */; };
 		25FD5EB31D1A6D8F0081553E /* D3CartoonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD5EB21D1A6D8F0081553E /* D3CartoonViewController.m */; };
 		25FD5EB61D1A6F8C0081553E /* D3CartoonPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD5EB51D1A6F8C0081553E /* D3CartoonPageContentViewController.m */; };
@@ -345,8 +345,6 @@
 		2589679D1D1BD45300CA2E67 /* AdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdManager.m; sourceTree = "<group>"; };
 		258967A01D1BFD0500CA2E67 /* ILUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILUtilities.h; sourceTree = "<group>"; };
 		258967A11D1BFD0500CA2E67 /* ILUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILUtilities.m; sourceTree = "<group>"; };
-		258967A31D1BFDCF00CA2E67 /* UIViewController+AppPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AppPromotion.h"; sourceTree = "<group>"; };
-		258967A41D1BFDCF00CA2E67 /* UIViewController+AppPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AppPromotion.m"; sourceTree = "<group>"; };
 		258967A91D1C02F200CA2E67 /* UIViewController+BannerAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BannerAd.h"; sourceTree = "<group>"; };
 		258967AA1D1C02F200CA2E67 /* UIViewController+BannerAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BannerAd.m"; sourceTree = "<group>"; };
 		2589684C1D1D14EE00CA2E67 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -356,6 +354,8 @@
 		2590F4FD1D1D5F1500499AAB /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
 		2590F4FE1D1D5F1500499AAB /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
 		2590F5001D1D5F6700499AAB /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
+		25E838981D991E27000B1246 /* UIViewController+AppPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AppPromotion.h"; sourceTree = "<group>"; };
+		25E838991D991E27000B1246 /* UIViewController+AppPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AppPromotion.m"; sourceTree = "<group>"; };
 		25FD5EA91D19F5470081553E /* D3CGPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D3CGPlayerViewController.h; sourceTree = "<group>"; };
 		25FD5EAA1D19F5470081553E /* D3CGPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D3CGPlayerViewController.m; sourceTree = "<group>"; };
 		25FD5EB11D1A6D8F0081553E /* D3CartoonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D3CartoonViewController.h; sourceTree = "<group>"; };
@@ -761,6 +761,8 @@
 		257666BF1D0CF21100DEE1B8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				25E838981D991E27000B1246 /* UIViewController+AppPromotion.h */,
+				25E838991D991E27000B1246 /* UIViewController+AppPromotion.m */,
 				252EA4A41D143E1C00BBFD23 /* UIViewController+Alert.h */,
 				252EA4A51D143E1C00BBFD23 /* UIViewController+Alert.m */,
 				252EA46F1D14376E00BBFD23 /* UIViewController+IAPNotification.h */,
@@ -773,8 +775,6 @@
 				252EA35C1D1255A700BBFD23 /* UILabel+StringFrame.m */,
 				258967941D1BCF5400CA2E67 /* UIViewController+VIPPromotion.h */,
 				258967951D1BCF5400CA2E67 /* UIViewController+VIPPromotion.m */,
-				258967A31D1BFDCF00CA2E67 /* UIViewController+AppPromotion.h */,
-				258967A41D1BFDCF00CA2E67 /* UIViewController+AppPromotion.m */,
 				258967A91D1C02F200CA2E67 /* UIViewController+BannerAd.h */,
 				258967AA1D1C02F200CA2E67 /* UIViewController+BannerAd.m */,
 			);
@@ -1192,13 +1192,13 @@
 				252F32DE1D26BAFB00630AC0 /* LSYMarkModel.m in Sources */,
 				252EA4A91D143F1300BBFD23 /* IAPViewController.m in Sources */,
 				252F33021D26BAFB00630AC0 /* LSYBottomMenuView.m in Sources */,
-				258967A51D1BFDCF00CA2E67 /* UIViewController+AppPromotion.m in Sources */,
 				252F32DF1D26BAFB00630AC0 /* LSYNoteModel.m in Sources */,
 				252F32D81D26BAFB00630AC0 /* LSYReadUtilites.m in Sources */,
 				252F32D91D26BAFB00630AC0 /* LSYCatalogViewController.m in Sources */,
 				252F32F81D26BAFB00630AC0 /* CXMLNode_XPathExtensions.m in Sources */,
 				252EA47D1D1437B000BBFD23 /* StoreObserver.m in Sources */,
 				25FD5EB31D1A6D8F0081553E /* D3CartoonViewController.m in Sources */,
+				25E8389A1D991E27000B1246 /* UIViewController+AppPromotion.m in Sources */,
 				252F32F91D26BAFB00630AC0 /* CXMLUnsupportedNode.m in Sources */,
 				252F32D51D26BAFB00630AC0 /* LSYNoteVC.m in Sources */,
 				258967A21D1BFD0500CA2E67 /* ILUtilities.m in Sources */,

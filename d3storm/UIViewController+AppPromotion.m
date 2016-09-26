@@ -8,10 +8,52 @@
 
 #import "UIViewController+AppPromotion.h"
 #import "TAPromotee/TAPromotee.h"
+#import "AdManager.h"
+
+NSString *const kPromotionWowStorm = @"wowstorm://";
+NSString *const kPromotionD3Storm = @"d3storm://";
+NSString *const kPromotionSCStorm = @"starcraftstorm://";
+NSString *const kPromotionOWStorm = @"owstorm://";
+NSString *const kPromotionHSStorm = @"hsstorm://";
+NSString *const kPromotionHeroesStorm = @"heroesstorm://";
+
+NSString *const kPromotionWowStormID = @"1086303564";
+NSString *const kPromotionD3StormID = @"1125770301";
+NSString *const kPromotionSCStormID = @"1130826514";
+NSString *const kPromotionOWStormID = @"1133026944";
+NSString *const kPromotionHSStormID = @"1134834492";
+NSString *const kPromotionHeroesStormID = @"1141179825";
+
 
 @implementation UIViewController (AppPromotion)
 
-- (void) promotionApp:(NSNumber *) appId {
+- (void)promotion {
+    NSInteger randomValue = arc4random()%20;
+    NSNumber *appId = [self getPromationAppInfo];
+    
+    if (randomValue == 9) {
+        if (appId) {
+            [self promotionApp:appId];
+        } else {
+            if ([[AdManager sharedInstance] isInterstitialReady]) {
+                [[AdManager sharedInstance] presentInterstitialAdFromRootViewController:self.navigationController];
+            } else {
+                [[AdManager sharedInstance] createInterstitial];
+            }
+        }
+    } else if (randomValue == 8) {
+        if ([[AdManager sharedInstance] isInterstitialReady]) {
+            [[AdManager sharedInstance] presentInterstitialAdFromRootViewController:self.navigationController];
+        } else {
+            [[AdManager sharedInstance] createInterstitial];
+            if (appId) {
+                [self promotionApp:appId];
+            }
+        }
+    }
+}
+
+- (void)promotionApp:(NSNumber *)appId {
     [TAPromotee showFromViewController:self.navigationController
                                  appId:[appId integerValue]
                                caption:@""
@@ -22,67 +64,49 @@
                                         break;
                                     case TAPromoteeUserActionDidInstall:
                                         // The user did click on the Install button so here you can for example disable the ad for the future
-                                        [self updatePromationAppStatus:[appId integerValue]];
                                         break;
                                 }
                             }];
-    
-    
 }
 
 - (NSNumber *)getPromationAppInfo {
-    NSMutableArray *tempArray = [[NSMutableArray alloc] initWithCapacity:3];
-    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
-    if (![userDefault boolForKey:kUserDefaultPromotionHealthyProgrammer]) {
-        [tempArray addObject:[NSNumber numberWithInteger:1050051890]];
+    NSMutableArray *promotionArray = [[NSMutableArray alloc] initWithCapacity:6];
+
+    NSArray *appArray = @[kPromotionWowStorm,
+                          kPromotionD3Storm,
+                          kPromotionSCStorm,
+                          kPromotionOWStorm,
+                          kPromotionHSStorm,
+                          kPromotionHeroesStorm];
+    
+    NSArray *appIDArray = @[kPromotionWowStormID,
+                          kPromotionD3StormID,
+                          kPromotionSCStormID,
+                          kPromotionOWStormID,
+                          kPromotionHSStormID,
+                          kPromotionHeroesStormID];
+
+    for (int i = 0; i < appArray.count; i++) {
+        if (![self isAppInstalled:appArray[i]]) {
+            [promotionArray addObject:appIDArray[i]];
+        }
     }
     
-    if (![userDefault boolForKey:kUserDefaultPromotionLearnPaint]) {
-        [tempArray addObject:[NSNumber numberWithInteger:1062770103]];
-    }
-    
-    if (![userDefault boolForKey:kUserDefaultPromotionWowRadio]) {
-        [tempArray addObject:[NSNumber numberWithInteger:1086303564]];
-    }
-    
-    if (![userDefault boolForKey:kUserDefaultPromotioniOSSkillTree]) {
-        [tempArray addObject:[NSNumber numberWithInteger:1099674518]];
-    }
-    
-    if (![userDefault boolForKey:kUserDefaultPromotionWowRadio]) {
-        [tempArray addObject:[NSNumber numberWithInteger:1125770301]];
-    }
-    
-    if (tempArray.count == 0) {
+    if (promotionArray.count == 0) {
         return nil;
     } else {
-        NSInteger randomIndex = arc4random()%tempArray.count;
-        return tempArray[randomIndex];
+        NSInteger randomIndex = arc4random()%promotionArray.count;
+        return promotionArray[randomIndex];
     }
 }
 
-- (void)updatePromationAppStatus: (NSInteger) appId {
-    switch (appId) {
-        case 1050051890:
-            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kUserDefaultPromotionHealthyProgrammer];
-            break;
-        case 1062770103:
-            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kUserDefaultPromotionLearnPaint];
-            break;
-        case 1086303564:
-            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kUserDefaultPromotionWowRadio];
-            break;
-        case 1099674518:
-            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kUserDefaultPromotioniOSSkillTree];
-            break;
-        case 1125770301:
-            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kUserDefaultPromotionWowRadio];
-            break;
-        default:
-            break;
+- (BOOL)isAppInstalled:(NSString*)appNameString {
+    NSURL* appUrl = [NSURL URLWithString:appNameString];
+    if ([[UIApplication sharedApplication] canOpenURL:appUrl]) {
+        return YES;
     }
     
-    [[NSUserDefaults standardUserDefaults] synchronize];
+    return NO;
 }
 
 @end

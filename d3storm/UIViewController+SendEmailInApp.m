@@ -57,7 +57,7 @@
             msg = @"用户成功保存邮件";
             break;
         case MFMailComposeResultSent:
-            msg = @"邮件已放在放到队列中，正在发送，稍后即可收到您的iOS面试题。";
+            msg = @"邮件已放在放到队列中，正在发送...";
             [self presentAlertTitle:@"发送中..." message:msg];
             break;
         case MFMailComposeResultFailed:
