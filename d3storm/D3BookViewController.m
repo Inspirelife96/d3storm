@@ -110,7 +110,6 @@ static NSString * const reuseIdentifier = @"D3BookCell";
     bookDetailVC.book = book;
     
     [self.navigationController pushViewController:bookDetailVC animated:YES];
-    
 }
 
 @end

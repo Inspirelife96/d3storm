@@ -120,7 +120,6 @@
             [self showMenu];
         }
     }
-    
 }
 
 #pragma mark - Privite Method
@@ -194,8 +193,8 @@
         UIMenuController *menuController = [UIMenuController sharedMenuController];
         UIMenuItem *menuItemCopy = [[UIMenuItem alloc] initWithTitle:@"复制" action:@selector(menuCopy:)];
         UIMenuItem *menuItemNote = [[UIMenuItem alloc] initWithTitle:@"笔记" action:@selector(menuNote:)];
-        UIMenuItem *menuItemShare = [[UIMenuItem alloc] initWithTitle:@"分享" action:@selector(menuShare:)];
-        NSArray *menus = @[menuItemCopy,menuItemNote,menuItemShare];
+        //UIMenuItem *menuItemShare = [[UIMenuItem alloc] initWithTitle:@"分享" action:@selector(menuShare:)];
+        NSArray *menus = @[menuItemCopy,menuItemNote/*,menuItemShare*/];
         [menuController setMenuItems:menus];
         [menuController setTargetRect:CGRectMake(CGRectGetMidX(_menuRect), ViewSize(self).height-CGRectGetMidY(_menuRect), CGRectGetHeight(_menuRect), CGRectGetWidth(_menuRect)) inView:self];
         [menuController setMenuVisible:YES animated:YES];
@@ -231,6 +230,8 @@
     UIAlertAction *confirm = [UIAlertAction actionWithTitle:@"确认" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         LSYNoteModel *model = [[LSYNoteModel alloc] init];
         model.content = [_content substringWithRange:_selectRange];
+        model.location = _selectRange.location;
+        model.length = _selectRange.length;
         model.note = alertController.textFields.firstObject.text;
         model.date = [NSDate date];
         [[NSNotificationCenter defaultCenter] postNotificationName:LSYNoteNotification object:model];
@@ -245,11 +246,13 @@
         }
     }
 }
-
+/*
 -(void)menuShare:(id)sender
 {
     [self hiddenMenu];
 }
+ */
+
 -(void)setFrameRef:(CTFrameRef)frameRef
 {
     if (_frameRef != frameRef) {

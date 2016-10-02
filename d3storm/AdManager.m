@@ -22,7 +22,6 @@
 static AdManager *instance = nil;
 
 +(AdManager*) sharedInstance {
-    
     static dispatch_once_t onceToken ;
     dispatch_once(&onceToken, ^{
         instance = [[super allocWithZone:NULL] init] ;

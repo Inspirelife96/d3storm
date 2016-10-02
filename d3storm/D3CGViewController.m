@@ -20,6 +20,7 @@
 #import "UIViewController+VIPPromotion.h"
 #import "CoinManager.h"
 #import "UIViewController+IAPNotification.h"
+#import "UIViewController+UseKey.h"
 
 @interface D3CGViewController ()
 
@@ -156,60 +157,20 @@
     NSArray *currentSectionArray = [cgDict objectForKey:@"cgs"];
     D3CGCell *cgCell = (D3CGCell*)[collectionView cellForItemAtIndexPath:indexPath];
     
-    NetworkStatus currentStatus = [[Reachability reachabilityForInternetConnection] currentReachabilityStatus];
-    
-    if (currentStatus == NotReachable) {
-        [self presentAlertTitle:@"无法访问网络" message:@"请确认网络连接状况并再次尝试"];
-        return;
-    }
-
-    if (!IsVip && [CoinManager getCoin] <= 0) {
-        [self showVIPPromotion:@"您没有足够的🔑" message:@"观看CG会消耗金钥匙，每天首次开启APP会免费获得3把，您可以通过以下方式获得额外的金钥匙。" cancelTitle:@"再看看" sender:cgCell];
-        return;
-    }
-    
-    if (currentStatus == ReachableViaWWAN) {
-        UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"高流量使用警告" message:@"您当前处于2/3/4G网络，观看视频会消耗流量，是否继续观看视频？" preferredStyle:UIAlertControllerStyleAlert];
-        UIAlertAction *okAction = [UIAlertAction
-                                   actionWithTitle:@"继续"
-                                   style:UIAlertActionStyleDefault
-                                   handler:^(UIAlertAction *action)
-                                   {
-                                       [CoinManager changeCoin:-1];
-                                       UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-                                       D3CGPlayerViewController *d3CGPlayerVC = [storyboard instantiateViewControllerWithIdentifier:@"D3CGPlayerViewController"];
-                                       d3CGPlayerVC.videoInfoDict = currentSectionArray[indexPath.row];
-                                       [self.navigationController pushViewController:d3CGPlayerVC animated:YES];
-                                   }];
-        UIAlertAction *cancelAction = [UIAlertAction
-                                       actionWithTitle:@"取消"
-                                       style:UIAlertActionStyleCancel
-                                       handler:^(UIAlertAction *action)
-                                       {
-                                       }];
-        
-        [alertVC addAction:okAction];
-        [alertVC addAction:cancelAction];
-        
-        if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-            UIPopoverPresentationController *popPresenter = [alertVC popoverPresentationController];
-            
-            popPresenter.sourceView = self.view;
-            popPresenter.sourceRect = self.view.bounds;
-            [self presentViewController:alertVC animated:YES completion:nil];
-        } else {
-            
-            [self presentViewController:alertVC animated:YES completion:nil];
-        }
-    } else {
-        [CoinManager changeCoin:-1];
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-        D3CGPlayerViewController *d3CGPlayerVC = [storyboard instantiateViewControllerWithIdentifier:@"D3CGPlayerViewController"];
-        d3CGPlayerVC.videoInfoDict = currentSectionArray[indexPath.row];
-        [self.navigationController pushViewController:d3CGPlayerVC animated:YES];
-    }
+    [self userKeyOn:cgCell actionBlock:^{
+        [self playVideo:currentSectionArray[indexPath.row]];
+    }];
 }
 
-
+- (void)playVideo:(NSDictionary*)videoInfoDict {
+    if (!IsVip) {
+        [CoinManager changeCoin:-1];
+    }
+    
+    D3CGPlayerViewController *cgPlayerVC = [self.storyboard instantiateViewControllerWithIdentifier:@"D3CGPlayerViewController"];
+    cgPlayerVC.videoInfoDict = videoInfoDict;
+    [self.navigationController pushViewController:cgPlayerVC animated:YES];
+    
+}
 
 @end

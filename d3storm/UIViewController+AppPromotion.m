@@ -28,26 +28,28 @@ NSString *const kPromotionHeroesStormID = @"1141179825";
 @implementation UIViewController (AppPromotion)
 
 - (void)promotion {
-    NSInteger randomValue = arc4random()%20;
-    NSNumber *appId = [self getPromationAppInfo];
+    NSInteger randomValue = arc4random()%15;
     
-    if (randomValue == 9) {
-        if (appId) {
-            [self promotionApp:appId];
-        } else {
+    if (randomValue == 9 || randomValue == 8) {
+        NSNumber *appId = [self getPromationAppInfo];
+        if (randomValue == 9) {
+            if (appId) {
+                [self promotionApp:appId];
+            } else {
+                if ([[AdManager sharedInstance] isInterstitialReady]) {
+                    [[AdManager sharedInstance] presentInterstitialAdFromRootViewController:self.navigationController];
+                } else {
+                    [[AdManager sharedInstance] createInterstitial];
+                }
+            }
+        } else if (randomValue == 8) {
             if ([[AdManager sharedInstance] isInterstitialReady]) {
                 [[AdManager sharedInstance] presentInterstitialAdFromRootViewController:self.navigationController];
             } else {
                 [[AdManager sharedInstance] createInterstitial];
-            }
-        }
-    } else if (randomValue == 8) {
-        if ([[AdManager sharedInstance] isInterstitialReady]) {
-            [[AdManager sharedInstance] presentInterstitialAdFromRootViewController:self.navigationController];
-        } else {
-            [[AdManager sharedInstance] createInterstitial];
-            if (appId) {
-                [self promotionApp:appId];
+                if (appId) {
+                    [self promotionApp:appId];
+                }
             }
         }
     }

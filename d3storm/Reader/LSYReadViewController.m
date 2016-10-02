@@ -33,7 +33,12 @@
 -(LSYReadView *)readView
 {
     if (!_readView) {
-        _readView = [[LSYReadView alloc] initWithFrame:CGRectMake(LeftSpacing,TopSpacing, self.view.frame.size.width-LeftSpacing-RightSpacing, self.view.frame.size.height-TopSpacing-BottomSpacing)];
+        CGFloat height = MainScreenHeight-TopSpacing-BottomSpacing - 50.0f;
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+            height = MainScreenHeight-TopSpacing-BottomSpacing - 90.0f;
+        }
+        
+        _readView = [[LSYReadView alloc] initWithFrame:CGRectMake(LeftSpacing,TopSpacing, self.view.frame.size.width-LeftSpacing-RightSpacing, height)];
         LSYReadConfig *config = [LSYReadConfig shareInstance];
         _readView.frameRef = [LSYReadParser parserContent:_content config:config bouds:CGRectMake(0,0, _readView.frame.size.width, _readView.frame.size.height)];
         _readView.content = _content;

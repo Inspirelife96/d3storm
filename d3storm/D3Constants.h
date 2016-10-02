@@ -15,12 +15,10 @@
 #define IsAdRemoved     ([[NSUserDefaults standardUserDefaults] boolForKey:kUserDefaultIsAdRemoved])
 #define IsSharedToday   ([[NSUserDefaults standardUserDefaults] boolForKey:kUserDefaultIsSharedToday])
 
-
 #define GetImage(Name, Ext) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:(Name) ofType:(Ext)]]
 
 #define GetFontAvenirNext(Size) [UIFont fontWithName:@"Avenir Next" size:(Size)]
 #define GetPreferredBlueColor   [UIColor colorWithRed:0/255.0 green:144.0/255.0 blue:226.0/255.0 alpha:1.0];
-
 
 #define StatusBarHeight        (20.f)
 #define TopBarHeight           (44.f)
@@ -32,34 +30,27 @@
 #define MainScreenHeight      [[UIScreen mainScreen] bounds].size.height
 #define MainScreenWidth       [[UIScreen mainScreen] bounds].size.width
 
-
 #pragma mark - app id
 extern NSString *const kAppReviewURL;
 extern NSString *const kAppURL;
 
-
 #pragma mark - privacy url
 extern NSString *const kPrivacyURL;
-
 
 #pragma mark - IAP
 extern NSString *const kIAPAdRemoved;
 extern NSString *const kIAPVip;
 
-
 #pragma mark - leancould
 extern NSString *const kLeanCloudApplicationId;
 extern NSString *const kLeanClientKey;
 
-
 #pragma mark - Share SDK
 extern NSString *const kShareSDKApplicationId;
-
 
 #pragma mark - WeiXin
 extern NSString *const kWXApplicationId;
 extern NSString *const kWXApplicationSecret;
-
 
 #pragma mark - QQ
 extern NSString *const kQQApplicationId;
@@ -72,11 +63,7 @@ extern NSString *const kUserDefaultIsAdRemoved;
 extern NSString *const kUserDefaultIsSharedToday;
 extern NSString *const kUserDefaultCoin;
 extern NSString *const kUserDefaultLastLoginDate;
-
-extern NSString *const kUserDefaultPromotionHealthyProgrammer;
-extern NSString *const kUserDefaultPromotionLearnPaint;
-extern NSString *const kUserDefaultPromotionWowRadio;
-extern NSString *const kUserDefaultPromotioniOSSkillTree;
+extern NSString *const kUserDefaultVersion12;
 
 #pragma mark - Notification
 extern NSString *const kNotificationVIPChanged;

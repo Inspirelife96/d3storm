@@ -31,7 +31,7 @@
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    if ([[NSUserDefaults standardUserDefaults] boolForKey:kUserDefaultIsAdRemoved]) {
+    if (IsAdRemoved) {
         if (self.gAdBannerView && self.gAdBannerView.frame.size.width > 0.0f) {
             [self hideBanner:self.gAdBannerView];
         }
@@ -100,7 +100,6 @@
 }
 
 - (void)adView:(GADBannerView *)view didFailToReceiveAdWithError:(GADRequestError *)error {
-    
     NSLog(@"Admob error: %@", error);
     [self hideBanner:self.gAdBannerView];
 }

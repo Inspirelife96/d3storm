@@ -66,7 +66,12 @@ static  NSString *markCell = @"markCell";
 {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     if ([self.delegate respondsToSelector:@selector(catalog:didSelectChapter:page:)]) {
-        [self.delegate catalog:nil didSelectChapter:_readModel.marks[indexPath.row].recordModel.chapter page:_readModel.marks[indexPath.row].recordModel.page];
+        
+        LSYMarkModel *selectedMarkModel = _readModel.marks[indexPath.row];
+        NSInteger chapter = selectedMarkModel.chapter;
+        NSInteger page = [_readModel getPageIndexByOffset:selectedMarkModel.location Chapter:chapter];
+        
+        [self.delegate catalog:nil didSelectChapter:chapter page:page];
     }
 }
 -(BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

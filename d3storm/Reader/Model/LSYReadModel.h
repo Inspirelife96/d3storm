@@ -17,9 +17,13 @@
 @property (nonatomic,strong) NSMutableArray <LSYMarkModel *>*marks;
 @property (nonatomic,strong) NSMutableArray <LSYNoteModel *>*notes;
 @property (nonatomic,strong) NSMutableArray <LSYChapterModel *>*chapters;
+@property (nonatomic,strong) NSMutableDictionary *marksRecord;
 @property (nonatomic,strong) LSYRecordModel *record;
+@property (nonatomic,strong) NSNumber *font;
 -(instancetype)initWithContent:(NSString *)content;
 -(instancetype)initWithePub:(NSString *)ePubPath;
+-(void)removeMarksAndNotes;
+-(NSUInteger)getPageIndexByOffset:(NSUInteger)offset Chapter:(NSUInteger)chapterIndex;
 +(void)updateLocalModel:(LSYReadModel *)readModel url:(NSURL *)url;
 +(id)getLocalModelWithURL:(NSURL *)url;
 @end

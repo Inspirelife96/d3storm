@@ -17,12 +17,7 @@
 @interface ILUtilities : NSObject
 
 + (void) presentAlertOnController:(UIViewController *)controller title:(NSString*)title message:(NSString*) message;
-
-+ (void) promotionApp:(NSNumber *) appId onViewController:(UIViewController *) viewController;
-+ (NSNumber *)getPromationAppInfo;
-
 + (NSString *)NSDateToNSString:(NSDate *)date withFormatter: (NSString *) nsFormatter;
-
 + (NSDate *)NSStringToNSDate: (NSString *) nsString withFormatter: (NSString *) nsFormatter;
 
 + (NSString *) getAudioDirectory;

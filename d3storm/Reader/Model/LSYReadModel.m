@@ -7,6 +7,7 @@
 //
 
 #import "LSYReadModel.h"
+#import "LSYReadConfig.h"
 
 @implementation LSYReadModel
 -(instancetype)initWithContent:(NSString *)content
@@ -22,6 +23,8 @@
         _record = [[LSYRecordModel alloc] init];
         _record.chapterModel = charpter.firstObject;
         _record.chapterCount = _chapters.count;
+        _marksRecord = [NSMutableDictionary dictionary];
+        _font = [NSNumber numberWithFloat:[LSYReadConfig shareInstance].fontSize];
     }
     return self;
 }
@@ -35,6 +38,8 @@
         _record = [[LSYRecordModel alloc] init];
         _record.chapterModel = _chapters.firstObject;
         _record.chapterCount = _chapters.count;
+        _marksRecord = [NSMutableDictionary dictionary];
+        _font = [NSNumber numberWithFloat:[LSYReadConfig shareInstance].fontSize];
     }
     return self;
 }
@@ -45,6 +50,8 @@
     [aCoder encodeObject:self.chapters forKey:@"chapters"];
     [aCoder encodeObject:self.record forKey:@"record"];
     [aCoder encodeObject:self.resource forKey:@"resource"];
+    [aCoder encodeObject:self.marksRecord forKey:@"marksRecord"];
+    [aCoder encodeObject:self.font forKey:@"font"];
 }
 -(id)initWithCoder:(NSCoder *)aDecoder{
     self = [super init];
@@ -55,6 +62,8 @@
         self.chapters = [aDecoder decodeObjectForKey:@"chapters"];
         self.record = [aDecoder decodeObjectForKey:@"record"];
         self.resource = [aDecoder decodeObjectForKey:@"resource"];
+        self.marksRecord = [aDecoder decodeObjectForKey:@"marksRecord"];
+        self.font = [aDecoder decodeObjectForKey:@"font"];
     }
     return self;
 }
@@ -93,6 +102,41 @@
     }
     NSKeyedUnarchiver *unarchive = [[NSKeyedUnarchiver alloc]initForReadingWithData:data];
     LSYReadModel *model = [unarchive decodeObjectForKey:key];
+    
+    if ([model.font floatValue] != [LSYReadConfig shareInstance].fontSize) {
+        if ([[key pathExtension] isEqualToString:@"txt"]) {
+            LSYReadModel *model = [[LSYReadModel alloc] initWithContent:[LSYReadUtilites encodeWithURL:url]];
+            model.resource = url;
+            [LSYReadModel updateLocalModel:model url:url];
+            return model;
+        }
+    }
+    
     return model;
+}
+
+-(void)removeMarksAndNotes {
+    [_notes removeAllObjects];
+    [_marks removeAllObjects];
+    [_marksRecord removeAllObjects];
+    
+    [LSYReadModel updateLocalModel:self url:self.resource];
+}
+
+- (NSUInteger)getPageIndexByOffset:(NSUInteger)offset Chapter:(NSUInteger)chapterIndex {
+    LSYChapterModel *chapterModel = _chapters[chapterIndex];
+    NSArray *pageArray = chapterModel.pageArray;
+    
+    for (int i = 0; i < pageArray.count - 1; i++) {
+        if (offset >= [pageArray[i] integerValue] && offset < [pageArray[i + 1] integerValue]) {
+            return i;
+        }
+    }
+    
+    if (offset >= [pageArray[pageArray.count - 1] integerValue]) {
+        return pageArray.count - 1;
+    } else {
+        return 0;
+    }
 }
 @end

@@ -67,7 +67,13 @@ static  NSString *noteCell = @"noteCell";
 {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     if ([self.delegate respondsToSelector:@selector(catalog:didSelectChapter:page:)]) {
-        [self.delegate catalog:nil didSelectChapter:_readModel.notes[indexPath.row].recordModel.chapter page:_readModel.notes[indexPath.row].recordModel.page];
+        
+        LSYNoteModel *selectedNoteModel = _readModel.notes[indexPath.row];
+        
+        NSInteger chapter = selectedNoteModel.chapter;
+        NSInteger page = [_readModel getPageIndexByOffset:selectedNoteModel.location Chapter:chapter];
+
+        [self.delegate catalog:nil didSelectChapter:chapter page:page];
     }
 }
 -(BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

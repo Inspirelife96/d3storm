@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AdViewController.h"
 
-@interface D3BookDetailViewController : AdViewController <UITableViewDelegate, UITableViewDataSource>
+@interface D3BookDetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property(weak, nonatomic) IBOutlet UIImageView *bookImageView;
 @property(weak, nonatomic) IBOutlet UIImageView *backgoundImageView;

@@ -44,29 +44,7 @@
     if ([[NSUserDefaults standardUserDefaults] boolForKey:kUserDefaultIsAdRemoved]) {
         return;
     } else {
-        NSInteger randomValue = arc4random()%10;
-        NSNumber *appId = [self getPromationAppInfo];
-        
-        if (randomValue == 9) {
-            if (appId) {
-                [self promotionApp:appId];
-            } else {
-                if ([[AdManager sharedInstance] isInterstitialReady]) {
-                    [[AdManager sharedInstance] presentInterstitialAdFromRootViewController:self.navigationController];
-                } else {
-                    [[AdManager sharedInstance] createInterstitial];
-                }
-            }
-        } else if (randomValue == 8) {
-            if ([[AdManager sharedInstance] isInterstitialReady]) {
-                [[AdManager sharedInstance] presentInterstitialAdFromRootViewController:self.navigationController];
-            } else {
-                [[AdManager sharedInstance] createInterstitial];
-                if (appId) {
-                    [self promotionApp:appId];
-                }
-            }
-        }
+        [self promotion];
     }
 }
 

@@ -42,20 +42,15 @@ NSString *const kUserDefaultIsAdRemoved   = @"com.inspirelife.d3storm.adremoved"
 NSString *const kUserDefaultIsSharedToday = @"com.inspirelife.shared.today";
 NSString *const kUserDefaultCoin          = @"com.inspirelife.coin";
 NSString *const kUserDefaultLastLoginDate = @"com.inspirelife.last.login.date";
+NSString *const kUserDefaultVersion12     = @"com.inspirelife.version.12";
 
 NSString *const kUserDefaultDailyNotificationStatus = @"com.inspirelife.daily.notification.status";
 NSString *const kUserDefaultDailyNotificationTime   = @"com.inspirelife.daily.notification.time";
-
-NSString *const kUserDefaultPromotionHealthyProgrammer = @"com.inspirelife.healthyprogrammer";
-NSString *const kUserDefaultPromotionLearnPaint        = @"com.inspirelife.learnpaint";
-NSString *const kUserDefaultPromotionWowRadio          = @"com.inspirelife.wowradio";
-NSString *const kUserDefaultPromotioniOSSkillTree      = @"com.inspirelife.iosskilltree";
 
 #pragma mark - Notification
 NSString *const kNotificationVIPChanged  = @"notification.vip.changed";
 NSString *const kNotificationCoinChanged = @"notification.coin.changed";
 
 #pragma mark - Admob
-NSString *const kAdmobBannerBookID      = @"ca-app-pub-2906017339602978/4728174242";
 NSString *const kAdmobBannerID          = @"ca-app-pub-2906017339602978/9297974646";
 NSString *const kAdmobInterstitialId    = @"ca-app-pub-2906017339602978/1635107040";

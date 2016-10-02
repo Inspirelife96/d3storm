@@ -12,5 +12,8 @@
 @property (nonatomic,strong) NSDate *date;
 @property (nonatomic,copy) NSString *note;
 @property (nonatomic,copy) NSString *content;
+@property (nonatomic,assign) NSUInteger location;
+@property (nonatomic,assign) NSUInteger length;
+@property (nonatomic,assign) NSUInteger chapter;
 @property (nonatomic,strong) LSYRecordModel *recordModel;
 @end

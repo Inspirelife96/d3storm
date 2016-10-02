@@ -31,14 +31,15 @@
                 model.title = @"开始";
                 NSUInteger len = local;
                 model.content = [content substringWithRange:NSMakeRange(0, len)];
+                model.chapterIndex = idx;
                 [*chapters addObject:model];
-                
             }
             if (idx > 0 ) {
                 LSYChapterModel *model = [[LSYChapterModel alloc] init];
                 model.title = [content substringWithRange:lastRange];
                 NSUInteger len = local-lastRange.location;
                 model.content = [content substringWithRange:NSMakeRange(lastRange.location, len)];
+                model.chapterIndex = idx;
                 [*chapters addObject:model];
                 
             }
@@ -46,6 +47,7 @@
                 LSYChapterModel *model = [[LSYChapterModel alloc] init];
                 model.title = [content substringWithRange:range];
                 model.content = [content substringWithRange:NSMakeRange(local, content.length-local)];
+                model.chapterIndex = idx;
                 [*chapters addObject:model];
             }
             lastRange = range;
@@ -54,6 +56,7 @@
     else{
         LSYChapterModel *model = [[LSYChapterModel alloc] init];
         model.content = content;
+        model.chapterIndex = 0;
         [*chapters addObject:model];
     }
     

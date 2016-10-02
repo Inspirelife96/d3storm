@@ -18,6 +18,7 @@
 #import "StoreManager.h"
 #import "AdManager.h"
 #import "iRate.h"
+#import "D3SharedResource.h"
 
 @interface AppDelegate ()
 
@@ -41,7 +42,6 @@
     pageControl.pageIndicatorTintColor = FlatWhite;
     pageControl.currentPageIndicatorTintColor = FlatBlueDark;
     pageControl.backgroundColor = FlatBlackDark;
-    
     
     // init IAP products
     NSArray *productIdentifiers = [NSArray arrayWithObjects:
@@ -102,22 +102,46 @@
     
     NSUserDefaults* userDefault = [NSUserDefaults standardUserDefaults];
     if (![userDefault boolForKey:kUserDefaultFirstLaunch]) {
-        
         [userDefault setBool:YES forKey:kUserDefaultFirstLaunch];
         [userDefault setBool:NO  forKey:kUserDefaultIsVip];
         [userDefault setBool:NO  forKey:kUserDefaultIsAdRemoved];
-        
-        [userDefault setBool:NO  forKey:kUserDefaultPromotionHealthyProgrammer];
-        [userDefault setBool:NO  forKey:kUserDefaultPromotionLearnPaint];
-        [userDefault setBool:NO  forKey:kUserDefaultPromotionWowRadio];
-        [userDefault setBool:NO  forKey:kUserDefaultPromotioniOSSkillTree];
-        
         [userDefault setInteger:0 forKey:kUserDefaultCoin];
         
         [userDefault synchronize];
     }
     
+    if (![userDefault boolForKey:kUserDefaultVersion12]) {
+        NSArray *bookArray = [D3SharedResource sharedInstance].bookArray;
+        
+        for (int i = 0; i < bookArray.count; i++) {
+            NSDictionary *bookSectionDict = bookArray[i];
+            NSArray *booksArray = [bookSectionDict objectForKey:@"books"];
+            for (int j = 0; j < booksArray.count; j++) {
+                NSString *bookCodeString = [booksArray[j] objectForKey:@"bookcode"];
+                NSNumber *bookId = [booksArray[j] objectForKey:@"bookid"];
+                if ([bookId integerValue] > 0 && [bookId integerValue] < 5000) {
+                    NSString *bookNameKey = [NSString stringWithFormat:@"%@.txt",bookCodeString];
+                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:bookNameKey];
+                }
+            }
+        }
+        
+        [userDefault setBool:YES forKey:kUserDefaultVersion12];
+        [userDefault synchronize];
+    }
+    
     return YES;
+}
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    id presentedViewController = [window.rootViewController presentedViewController];
+    NSString *className = presentedViewController ? NSStringFromClass([presentedViewController class]) : nil;
+    
+    if (window && ([className isEqualToString:@"MPInlineVideoFullscreenViewController"] || [className isEqualToString:@"AVFullScreenViewController"])) {
+        return UIInterfaceOrientationMaskAll;
+    } else {
+        return UIInterfaceOrientationMaskPortrait;
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

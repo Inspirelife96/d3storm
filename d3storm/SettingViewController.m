@@ -33,7 +33,7 @@
     NSArray *row1Array = [NSArray arrayWithObjects:@"意见与反馈", nil];
     NSArray *row2Array = [NSArray arrayWithObjects:@"去评分啦", @"分享给好友", nil];
     NSArray *row3Array = [NSArray arrayWithObjects:@"购买", nil];
-    NSArray *row4Array = [NSArray arrayWithObjects:@"关于[小说，CG合集 For 暗黑破坏神]", nil];
+    NSArray *row4Array = [NSArray arrayWithObjects:@"关于[大图书馆 For 暗黑破坏神]", nil];
     
     _rowArray = [NSArray arrayWithObjects:row1Array, row2Array, row3Array, row4Array, nil];
     _sectionArray = [NSArray arrayWithObjects:@"", @"", @"", @"", nil];
@@ -75,7 +75,7 @@
     UITableViewCell *currentCell = [tableView cellForRowAtIndexPath:indexPath];
     
     if (section == 0) {
-        NSString *subject = @"小说，CG合集 For 暗黑破坏神 用户反馈";
+        NSString *subject = @"大图书馆 For 暗黑破坏神 用户反馈";
         NSArray *recipientArray = [NSArray arrayWithObject: @"inspirelife@hotmail.com"];
         NSString *body = @"";
         
@@ -90,7 +90,7 @@
         if (row == 0) {
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:kAppReviewURL]];
         } else {
-            [self shareMessage:@"我正在用［小说，CG合集 For 暗黑破坏神］看暗黑破坏神的故事，快来和我一起体验史诗故事吧！下载地址：http://itunes.apple.com/app/id1125770301" onView:currentCell];
+            [self shareMessage:@"我正在用［大图书馆 For 暗黑破坏神］看暗黑破坏神的故事，快来和我一起体验史诗故事吧！下载地址：http://itunes.apple.com/app/id1125770301" onView:currentCell];
         }
     } else if (section == 2) {
         IAPViewController *IAPVC = [[IAPViewController alloc] initWithStyle:UITableViewStyleGrouped];

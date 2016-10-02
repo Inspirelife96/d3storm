@@ -11,7 +11,6 @@
 @interface CoinManager : NSObject
 
 + (NSInteger)getCoin;
-
 + (void)changeCoin:(NSInteger)number;
 
 @end

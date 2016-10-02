@@ -14,9 +14,13 @@
 #import "UIImage+ImageEffects.h"
 #import "LSYNoteModel.h"
 #import "LSYMarkModel.h"
+#import <objc/runtime.h>
+
+@import GoogleMobileAds;
+
 #define AnimationDelay 0.3
 
-@interface LSYReadPageViewController ()<UIPageViewControllerDelegate,UIPageViewControllerDataSource,LSYMenuViewDelegate,UIGestureRecognizerDelegate,LSYCatalogViewControllerDelegate,LSYReadViewControllerDelegate>
+@interface LSYReadPageViewController ()<UIPageViewControllerDelegate,UIPageViewControllerDataSource,LSYMenuViewDelegate,UIGestureRecognizerDelegate,LSYCatalogViewControllerDelegate,LSYReadViewControllerDelegate, GADBannerViewDelegate>
 {
     NSUInteger _chapter;    //当前显示的章节
     NSUInteger _page;       //当前显示的页数
@@ -30,6 +34,8 @@
 @property (nonatomic,strong) LSYCatalogViewController *catalogVC;   //侧边栏
 @property (nonatomic,strong) UIView * catalogView;  //侧边栏背景
 @property (nonatomic,strong) LSYReadViewController *readView;   //当前阅读视图
+@property (nonatomic,strong) GADBannerView *gadBannerView;
+
 @end
 
 @implementation LSYReadPageViewController
@@ -53,13 +59,23 @@
     //添加笔记
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(addNotes:) name:LSYNoteNotification object:nil];
 
+    if (IsAdRemoved) {
+        //
+    } else {
+        [self initGADBanner];
+    }
+    
+    [self.view setBackgroundColor:[UIColor whiteColor]];
 }
 
 -(void)addNotes:(NSNotification *)no
 {
-    LSYNoteModel *model = no.object;
-    model.recordModel = [_model.record copy];
-    [[_model mutableArrayValueForKey:@"notes"] addObject:model];    //这样写才能KVO数组变化
+    LSYNoteModel *noteModel = no.object;
+    LSYChapterModel *chapterModel = _model.record.chapterModel;
+    noteModel.location += [chapterModel.pageArray[_model.record.page] integerValue];
+    noteModel.chapter = chapterModel.chapterIndex;
+    noteModel.recordModel = [_model.record copy];
+    [[_model mutableArrayValueForKey:@"notes"] addObject:noteModel];    //这样写才能KVO数组变化
     [LSYReadUtilites showAlertTitle:nil content:@"保存笔记成功"];
 }
 
@@ -73,9 +89,37 @@
 }
 -(void)showToolMenu
 {
+    /*
     [_readView.readView cancelSelected];
-    [self.menuView showAnimation:YES];
+    NSString * key = [NSString stringWithFormat:@"%d_%d",(int)_model.record.chapter,(int)_model.record.page];
     
+    id state = _model.marksRecord[key];
+     */
+    
+    BOOL isMarked = FALSE;
+    
+    LSYRecordModel *recordModel = _model.record;
+    LSYChapterModel *chapterModel = recordModel.chapterModel;
+    
+    NSUInteger startIndex = [chapterModel.pageArray[recordModel.page] integerValue];
+    
+    NSUInteger endIndex = NSUIntegerMax;
+    NSUInteger chapter = recordModel.chapter;
+    
+    if (recordModel.page < chapterModel.pageCount - 1) {
+        endIndex = [chapterModel.pageArray[recordModel.page + 1] integerValue];
+    }
+    
+    for (int i = 0; i < _model.marks.count; i++) {
+        LSYMarkModel *markModel = _model.marks[i];
+        if (markModel.chapter == chapter && markModel.location >= startIndex && markModel.location < endIndex) {
+            isMarked = YES;
+            break;
+        }
+    }
+    
+    isMarked?(_menuView.topView.state=1): (_menuView.topView.state=0);
+    [self.menuView showAnimation:YES];
 }
 
 #pragma mark - init
@@ -201,19 +245,60 @@
 }
 -(void)menuViewFontSize:(LSYBottomMenuView *)bottomMenu
 {
-
     [_model.record.chapterModel updateFont];
+    
+    for (int i = 0; i < _model.chapters.count; i++) {
+        [_model.chapters[i] updateFont];
+    }
+    
     [_pageViewController setViewControllers:@[[self readViewWithChapter:_model.record.chapter page:(_model.record.page>_model.record.chapterModel.pageCount-1)?_model.record.chapterModel.pageCount-1:_model.record.page]] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
     [self updateReadModelWithChapter:_model.record.chapter page:(_model.record.page>_model.record.chapterModel.pageCount-1)?_model.record.chapterModel.pageCount-1:_model.record.page];
 }
+
 -(void)menuViewMark:(LSYTopMenuView *)topMenu
 {
-
-    LSYMarkModel *model = [[LSYMarkModel alloc] init];
-    model.date = [NSDate date];
-    model.recordModel = [_model.record copy];
-    [[_model mutableArrayValueForKey:@"marks"] addObject:model];
-
+    /*
+    NSString * key = [NSString stringWithFormat:@"%d_%d",(int)_model.record.chapter,(int)_model.record.page];
+    id state = _model.marksRecord[key];
+     */
+    
+    BOOL isMarked = FALSE;
+    
+    LSYRecordModel *recordModel = _model.record;
+    LSYChapterModel *chapterModel = recordModel.chapterModel;
+    
+    NSUInteger startIndex = [chapterModel.pageArray[recordModel.page] integerValue];
+    
+    NSUInteger endIndex = NSUIntegerMax;
+    
+    if (recordModel.page < chapterModel.pageCount - 1) {
+        endIndex = [chapterModel.pageArray[recordModel.page + 1] integerValue];
+    }
+    
+    NSMutableArray *markedArray = [[NSMutableArray alloc] init];
+    for (int i = 0; i < _model.marks.count; i++) {
+        LSYMarkModel *markModel = _model.marks[i];
+        if (markModel.location >= startIndex && markModel.location <= endIndex) {
+            isMarked = YES;
+            [markedArray addObject:markModel];
+        }
+    }
+    
+    if (isMarked) {
+        [[_model mutableArrayValueForKey:@"marks"] removeObjectsInArray:markedArray];
+    } else {
+        LSYRecordModel *recordModel = _model.record;
+        LSYMarkModel *markModel = [[LSYMarkModel alloc] init];
+        markModel.date = [NSDate date];
+        markModel.location = [recordModel.chapterModel.pageArray[recordModel.page] integerValue];
+        markModel.length = 0;
+        markModel.chapter = recordModel.chapter;
+        markModel.recordModel = [_model.record copy];
+        [[_model mutableArrayValueForKey:@"marks"] addObject:markModel];
+        //[_model.marksRecord setObject:markModel forKey:key];
+    }
+    
+    _menuView.topView.state = !isMarked;
 }
 #pragma mark - Create Read View Controller
 
@@ -221,6 +306,7 @@
 
     
     if (_model.record.chapter != chapter) {
+        [self updateReadModelWithChapter:chapter page:page];
         [_model.record.chapterModel updateFont];
     }
     _readView = [[LSYReadViewController alloc] init];
@@ -238,6 +324,7 @@
     _model.record.chapterModel = _model.chapters[chapter];
     _model.record.chapter = chapter;
     _model.record.page = page;
+    _model.font = [NSNumber numberWithFloat:[LSYReadConfig shareInstance].fontSize];
     [LSYReadModel updateLocalModel:_model url:_resourceURL];
 }
 #pragma mark - Read View Controller Delegate
@@ -318,11 +405,68 @@
 -(void)viewDidLayoutSubviews
 {
     [super viewDidLayoutSubviews];
-
-    _pageViewController.view.frame = self.view.frame;
-    _menuView.frame = self.view.frame;
+    
+    CGFloat bannerHeight = 50.0f;
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        bannerHeight = 90.0f;
+    }
+    
+    _pageViewController.view.frame = CGRectMake(0.0, 0.0, self.view.frame.size.width, self.view.frame.size.height - bannerHeight);
+    _menuView.frame = CGRectMake(0.0, 0.0, self.view.frame.size.width, self.view.frame.size.height - bannerHeight);
     _catalogView.frame = CGRectMake(-ViewSize(self.view).width, 0, 2*ViewSize(self.view).width, ViewSize(self.view).height);
     _catalogVC.view.frame = CGRectMake(0, 0, ViewSize(self.view).width-100, ViewSize(self.view).height);
     [_catalogVC reload];
+
 }
+
+-(void)initGADBanner {
+    if (!_gadBannerView) {
+        
+        _gadBannerView = [[GADBannerView alloc] initWithAdSize:kGADAdSizeSmartBannerPortrait];
+        _gadBannerView.adUnitID = kAdmobBannerID;
+        _gadBannerView.rootViewController = self;
+        _gadBannerView.delegate = self;
+        _gadBannerView.hidden   = YES;
+        
+        self.view.clipsToBounds = YES;
+        [self.view addSubview:_gadBannerView];
+        
+        GADRequest *request = [GADRequest request];
+        request.testDevices = @[@"007ee895fbc5dca2f28e11feb0414433", @"45c243aa392382f9ed49a9e3617336fa", @"55d28e54f40dc98d245ad832e5c6aec897be7ac6", @"Simulator"];
+        [_gadBannerView loadRequest:request];
+    }
+}
+
+-(void)hideBanner:(UIView*)banner {
+    if (banner && ![banner isHidden]) {
+        _gadBannerView.frame = CGRectMake(0.0f,
+                                          MainScreenHeight - banner.frame.size.height,
+                                          0.0f,
+                                          0.0f);
+        banner.hidden = TRUE;
+    }
+}
+
+-(void)showBanner:(UIView*)banner {
+    
+    if (banner && [banner isHidden]) {
+        _gadBannerView.frame = CGRectMake(0.0,
+                                          MainScreenHeight - banner.frame.size.height,
+                                          banner.frame.size.width,
+                                          banner.frame.size.height);
+        banner.hidden = FALSE;
+    }
+}
+
+#pragma mark - GADBanner delegate methods -
+- (void)adViewDidReceiveAd:(GADBannerView *)view {
+    NSLog(@"Admob load");
+    [self showBanner:_gadBannerView];
+}
+
+- (void)adView:(GADBannerView *)view didFailToReceiveAdWithError:(GADRequestError *)error {
+    NSLog(@"Admob error: %@", error);
+    [self hideBanner:_gadBannerView];
+}
+
 @end

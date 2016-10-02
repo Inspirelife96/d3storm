@@ -18,7 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
     [self.view setNeedsLayout];
     [self.view layoutIfNeeded];
     
@@ -31,6 +30,7 @@
     
     NSString *htmlString = [NSString stringWithFormat:[_videoInfoDict objectForKey:@"cglink"], (NSInteger)height*4, (NSInteger)width*4];
     _videoWebView.mediaPlaybackRequiresUserAction = NO;
+    _videoWebView.allowsInlineMediaPlayback = YES;
     
     _videoWebView.scrollView.bounces = NO;
     _videoWebView.scrollView.showsHorizontalScrollIndicator = NO;
@@ -41,15 +41,31 @@
     self.navigationItem.title =  [_videoInfoDict objectForKey:@"cgname"];
     _videoTextView.text = [_videoInfoDict objectForKey:@"cgdescription"];
     _videoTextView.textColor = FlatGrayDark;
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(windowNowVisible:)
+     name:UIWindowDidBecomeVisibleNotification
+     object:self.view.window
+     ];
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(windowNowHidden:)
+     name:UIWindowDidBecomeHiddenNotification
+     object:self.view.window
+     ];
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
+- (void)windowNowVisible:(NSNotification *)notification
+{
+    NSLog(@"Youtube/ Media window appears");
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void)windowNowHidden:(NSNotification *)notification
+{
+    NSLog(@"Youtube/ Media window disappears.");
 }
 
 

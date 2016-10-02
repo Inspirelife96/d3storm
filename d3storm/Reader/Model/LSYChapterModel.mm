@@ -12,8 +12,7 @@
 #import "NSString+HTML.h"
 #include <vector>
 @interface LSYChapterModel ()
-@property (nonatomic) std::vector<NSUInteger> pages;
-@property (nonatomic,strong) NSMutableArray *pageArray;
+
 @end
 
 @implementation LSYChapterModel
@@ -44,12 +43,22 @@
 }
 -(void)setContent:(NSString *)content
 {
+    CGFloat height = MainScreenHeight-TopSpacing-BottomSpacing - 50.0f;
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        height = MainScreenHeight - TopSpacing - BottomSpacing - 90.0f;
+    }
+    
     _content = content;
-    [self paginateWithBounds:CGRectMake(LeftSpacing, TopSpacing, [UIScreen mainScreen].bounds.size.width-LeftSpacing-RightSpacing, [UIScreen mainScreen].bounds.size.height-TopSpacing-BottomSpacing)];
+    [self paginateWithBounds:CGRectMake(LeftSpacing, TopSpacing, [UIScreen mainScreen].bounds.size.width-LeftSpacing-RightSpacing, height)];
 }
 -(void)updateFont
 {
-    [self paginateWithBounds:CGRectMake(LeftSpacing, TopSpacing, [UIScreen mainScreen].bounds.size.width-LeftSpacing-RightSpacing, [UIScreen mainScreen].bounds.size.height-TopSpacing-BottomSpacing)];
+    CGFloat height = MainScreenHeight-TopSpacing-BottomSpacing - 50.0f;
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        height = MainScreenHeight - TopSpacing - BottomSpacing - 90.0f;
+    }
+    
+    [self paginateWithBounds:CGRectMake(LeftSpacing, TopSpacing, [UIScreen mainScreen].bounds.size.width-LeftSpacing-RightSpacing, height)];
 }
 -(void)paginateWithBounds:(CGRect)bounds
 {
